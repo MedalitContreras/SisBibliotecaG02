@@ -6,8 +6,6 @@ class Usuario extends CI_Controller
 	public function index()
 	{
         $this->load->model('model_usuario');
-        
-        
 
         $this->load->view('header');
         $this->load->view('usuario/perfil');
