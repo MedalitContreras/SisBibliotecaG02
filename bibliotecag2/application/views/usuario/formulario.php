@@ -2,10 +2,10 @@
 <form method="post" action="<?php echo base_url('usuarioGuardar') ?>">
     <div>
         <div >
-            <div>
+            <div class="form-group"> 
                 <label>Titulo</label>
                 <div>
-                    <input type="text" name="ejem_titulo">
+                    <input type="text" class="form-control" name="ejem_titulo">
                 </div>
             </div>
         </div>
