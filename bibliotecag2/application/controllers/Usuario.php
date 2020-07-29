@@ -37,6 +37,8 @@ class Usuario extends CI_Controller
         redirect('usuario');
 
     }
+
+
     public function guardar()
     {
        // $ejem_id = $this->input->post('ejem_id');
@@ -80,6 +82,6 @@ class Usuario extends CI_Controller
         
         redirect('usuario/ejemplar');
     }
-  
+ 
    
 }
