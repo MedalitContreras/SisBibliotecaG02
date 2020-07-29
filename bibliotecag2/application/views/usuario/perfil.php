@@ -7,8 +7,9 @@
 </html>
 
 <h2 align="center" class="display-4">Perfil de Usuario</h2>
-    <a  href="<?php echo base_url('usuario/formulario') ?>" class="nav-link active"> Ingresar Nuevo Libro</a>
-  <div class="container">
+<div class="container">
+    <a  href="<?php echo base_url('usuario/formulario') ?>"  type="button" class="btn btn-info">Ingresar Nuevo Libro</a>
+<br></br>
 <h2 >Ejemplares  </h2>                
 <table class="table table-bordered">
     <thead>
