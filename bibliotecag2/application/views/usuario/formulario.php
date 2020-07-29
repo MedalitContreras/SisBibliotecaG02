@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <!doctype html>
 <html lang="en">
   <head>
@@ -15,19 +14,6 @@
             <div class="form-group" > 
              <label><h3>Título</h3></label>
                 <input type="text" class="form-control" name="ejem_titulo" placeholder="Ingrese el Título">
-=======
-<h2>Formulario</h2>
-<form method="post" action="<?php echo base_url('usuario/guardar') ?>">
-    <div>
-        <div >
-            <div>
-                <label>Titulo</label>
-                <div>
-                    <input type="text" name="ejem_titulo">
-                </div>
->>>>>>> 847db64c8a48a7d4faab4aea40d58afee6a23f45
-            </div>
-
             <div  class="form-group">
                 <label>Editorial</label>
                 <input type="text" class="form-control" name="ejem_editorial" placeholder="Ingrese la Editorial">
