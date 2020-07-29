@@ -9,7 +9,7 @@
 <div  class="container">
 
 <h2 align="center" class="display-4"><p><u>FORMULARIO</u></p></h2>
-<form action="<?php echo base_url('usuarioGuardar') ?>" method="post"  class="form-group">
+<form action="<?php echo base_url('usuario/guardar') ?>" method="post"  class="form-group">
 
             <div class="form-group" > 
              <label><h4>Título</h4></label>

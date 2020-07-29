@@ -5,9 +5,10 @@ class Usuario extends CI_Controller
 {
 	public function index()
 	{
+       
+        
         $this->load->model('model_usuario');
         $result = $this->model_usuario->consultar();
-        
         $datos = array('registros'=>$result);
 
         $this->load->view('header');
@@ -18,6 +19,15 @@ class Usuario extends CI_Controller
     {
         $this->load->view('header');
         $this->load->view('usuario/formulario');
+        $this->load->view('footer');
+    }
+    public function ejemplar(){
+
+        $this->load->model('model_usuario');
+        $result = $this->model_usuario->consultar();
+        $datos = array('registros'=>$result);
+        $this->load->view('header');
+        $this->load->view('usuario/ejemplar',$datos);
         $this->load->view('footer');
     }
     public function guardar()

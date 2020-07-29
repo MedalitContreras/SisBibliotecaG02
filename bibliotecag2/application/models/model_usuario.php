@@ -3,7 +3,7 @@ class Model_usuario extends CI_Model
 {
     public function consultar()
     {
-        $query = $this->db->get('ejemplar', 30);
+        $query = $this->db->get('ejemplar', 300);
         return $query->result();
     }
     public function guardar($data)

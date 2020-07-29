@@ -1,22 +1,32 @@
-<h2 >Ejemplares </h2>                
-<table class="table table-bordered">
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</html>
+<form action="<?php echo base_url('usuario/ejemplar') ?>" method="post"  class="form-group">
+<div class="container">
+<br><br>
+<h2 >Ejemplares  </h2>                
+<table class=" table">
     <thead>
-        <tr>
-        <th>ID</th>
-            <th> Titulo</th>
-            <th> Editorial</th>
-            <th> Paginas</th>
-            <th> isbn</th>
-            <th> Idioma</th>
-            <th> Portada</th>
-            <th> Digital</th>
-            <th> Audio</th>
-            <th> Resumen</th>
-            <th> Tipo</th>
-            <th> Categoria</th>
-            <th> Valoracion</th>
-            <th> Anio</th>
-            <th> Numero de Prestamos</th>
+        <tr class="table-active">
+        <th scope="col">ID</th>
+            <th scope="col"> Titulo</th>
+            <th scope="col"> Editorial</th>
+            <th scope="col"> Paginas</th>
+            <th scope="col"> isbn</th>
+            <th scope="col"> Idioma</th>
+            <th scope="col"> Portada</th>
+            <th  scope="col"> Digital</th>
+            <th  scope="col"> Audio</th>
+            <th  scope="col"> Resumen</th>
+            <th  scope="col"> Tipo</th>
+            <th  scope="col"> Categoria</th>
+            <th  scope="col"> Valoracion</th>
+            <th  scope="col"> Año</th>
+            <th  scope="col"> Préstamos</th>
            
         </tr>
     </thead>
@@ -43,3 +53,5 @@
         <?php endforeach; ?>
     </tbody>
 </table>
+</form>
+</div>  
