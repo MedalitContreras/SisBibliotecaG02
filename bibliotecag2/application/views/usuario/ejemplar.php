@@ -8,7 +8,8 @@
 <form action="<?php echo base_url('usuario/ejemplar') ?>" method="post"  class="form-group">
 <div class="container">
 <br><br>
-<h2 >Ejemplares  </h2>                
+<h2 align="center" class="display-4"><P><u>EJEMPLARES</u></P> </h2>  
+<br><br>              
 <table class=" table">
     <thead>
         <tr class="table-active">
