@@ -6,9 +6,12 @@ class Usuario extends CI_Controller
 	public function index()
 	{
         $this->load->model('model_usuario');
+        $result = $this->model_usuario->consultar();
+        
+        $datos = array('registros'=>$result);
 
         $this->load->view('header');
-        $this->load->view('usuario/perfil');
+        $this->load->view('usuario/perfil',$datos);
         $this->load->view('footer');
     }
     public function formulario()
@@ -56,7 +59,7 @@ class Usuario extends CI_Controller
             'ejem_nprestamos'=>$ejem_nprestamos
            
         );
-        $this->model_usuarios->guardar($data);
+        $this->model_usuario->guardar($data);
         
         redirect('usuario');
     }
