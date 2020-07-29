@@ -16,14 +16,10 @@
         <th scope="col">ID</th>
             <th scope="col"> Titulo</th>
             <th scope="col"> Editorial</th>
-            <th scope="col"> Editorial</th>
             <th scope="col"> Paginas</th>
             <th scope="col"> isbn</th>
             <th scope="col"> Idioma</th>
             <th scope="col"> Portada</th>
-            <th  scope="col"> Portada</th>
-            <th  scope="col"> Portada</th>
-            <th  scope="col"> Portada</th>
             <th  scope="col"> Digital</th>
             <th  scope="col"> Audio</th>
             <th  scope="col"> Resumen</th>
