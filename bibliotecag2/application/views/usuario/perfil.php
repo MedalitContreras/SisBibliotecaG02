@@ -5,6 +5,10 @@
   <a  href="<?php echo base_url('usuario/formulario') ?>" class="navbar-brand" href="#">Ingresar Nuevo Libro</a> 
 
   <a  href="<?php echo base_url('usuario/ejemplar') ?>"  class="navbar-brand" href="#">Ejemplares</a>
+
+  <a href="<?php echo base_url('Login'); ?>" class="navbar-brand" href="#">INGRESAR</a>
+
+  <a href="<?php echo base_url('Login/salir'); ?>" class="navbar-brand" href="#">SALIR</a>
   
   </button>
 
