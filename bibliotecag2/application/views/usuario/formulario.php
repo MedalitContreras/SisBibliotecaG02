@@ -1,5 +1,5 @@
 <h2>Formulario</h2>
-<form method="post" action="<?php echo base_url('usuarioGuardar') ?>">
+<form method="post" action="<?php echo base_url('usuario/guardar') ?>">
     <div>
         <div >
             <div>
