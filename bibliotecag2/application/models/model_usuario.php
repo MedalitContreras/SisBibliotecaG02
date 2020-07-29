@@ -10,5 +10,8 @@ class Model_usuario extends CI_Model
     {
         $this->db->insert('ejemplar',$data);
     }
-    
+    public function regresar(){
+
+       
+    }
 }

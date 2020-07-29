@@ -1,9 +1,11 @@
 
-
 <div class="container">
+
+
 <br><br>
 <h2 align="center" class="display-4"><P><u>EJEMPLARES</u></P> </h2>  
-<br><br>              
+<br><br> 
+<a  href="<?php echo base_url('usuario/regresar') ?>">Regresar Perfil</a>              
 <table class=" table">
     <thead>
         <tr class="table-active">
@@ -48,5 +50,4 @@
         <?php endforeach; ?>
     </tbody>
 </table>
-</form>
 </div>  

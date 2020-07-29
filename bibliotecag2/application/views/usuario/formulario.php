@@ -64,7 +64,9 @@
                     <input type="number" class="form-control" name="ejem_anio" placeholder="Ingrese el Año">
                 </div>
             <div class="container">
-        <button type="submit" class="btn btn-primary">Guardar</button>        
+        <button type="submit" class="btn btn-primary">Guardar</button>  
+        <a  href="<?php echo base_url('usuario/regresar') ?>" type="submit" class="btn btn-primary" >Volver</a> 
+       
  </div>
  </form>
  </div> 
