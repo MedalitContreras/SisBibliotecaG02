@@ -2,7 +2,7 @@
 <br><br>
 <h2 align="center" class="display-4"><P><u>EJEMPLARES</u></P></h2>  
 <br><br> 
-<a  href="<?php echo base_url('usuario/regresar') ?>">Regresar Perfil</a>  
+<a  href="<?php echo base_url('usuario/regresar') ?>" type="submit" class="btn btn-primary">Regresar Perfil</a>  
 
 <table class=" table">
     <thead>
