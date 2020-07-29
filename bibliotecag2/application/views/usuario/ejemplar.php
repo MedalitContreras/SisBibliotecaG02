@@ -5,7 +5,8 @@
 <br><br>
 <h2 align="center" class="display-4"><P><u>EJEMPLARES</u></P> </h2>  
 <br><br> 
-<a  href="<?php echo base_url('usuario/regresar') ?>">Regresar Perfil</a>              
+<a  href="<?php echo base_url('usuario/regresar') ?>">Regresar Perfil</a>  
+            
 <table class=" table">
     <thead>
         <tr class="table-active">
@@ -24,6 +25,8 @@
             <th  scope="col"> Valoracion</th>
             <th  scope="col"> Año</th>
             <th  scope="col"> Préstamos</th>
+            <th  scope="col"> Opciones</th>
+
            
         </tr>
     </thead>
@@ -40,12 +43,10 @@
             <td><?php echo $reg->ejem_digital; ?></td>
             <td><?php echo $reg->ejem_audio; ?></td>
             <td><?php echo $reg->ejem_resumen; ?></td>
-            <td><?php echo $reg->ejem_tipo_id; ?></td>
-            <td><?php echo $reg->ejem_cate_id; ?></td>
+            <><?php echo $reg->ejem_cate_id; ?></td>
             <td><?php echo $reg->ejem_valoracion; ?></td>
             <td><?php echo $reg->ejem_anio; ?></td>
-            <td><?php echo $reg->ejem_nprestamos; ?></td>
-              
+            <td><?php echo $reg->ejem_nprestamos; ?></td>     
         </tr>
         <?php endforeach; ?>
     </tbody>
