@@ -1,113 +1,80 @@
-<h2>Formulario</h2>
-<form method="post" action="<?php echo base_url('usuarioGuardar') ?>">
-    <div>
-        <div >
-            <div class="form-group"> 
-                <label>Titulo</label>
-                <div>
-                    <input type="text" class="form-control" name="ejem_titulo">
-                </div>
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</html>
+
+<div  class="container">
+
+<h2 align="center" class="display-4"><p><u>FORMULARIO</u></p></h2>
+<form action="<?php echo base_url('usuarioGuardar') ?>" method="post"  class="form-group">
+
+            <div class="form-group" > 
+             <label><h3>Título</h3></label>
+                <input type="text" class="form-control" name="ejem_titulo" placeholder="Ingrese el Título">
             </div>
-        </div>
-        <div >
-            <div>
+
+            <div  class="form-group">
                 <label>Editorial</label>
-                <div>
-                    <input type="text" name="ejem_editorial">
-                </div>
+                <input type="text" class="form-control" name="ejem_editorial" placeholder="Ingrese la Editorial">
             </div>
-        </div>
-        <div >
-            <div>
+
+            <div class="form-group">
                 <label>Paginas</label>
-                <div>
-                    <input type="number" name="ejem_paginas">
-                </div>
+                <input type="number" class="form-control" name="ejem_paginas" placeholder="Ingrese el número de páginas">
             </div>
-        </div>
-        <div >
-            <div>
+
+            <div class="form-group">
                 <label>Isbn</label>
-                <div>
-                    <input type="text" name="ejem_isbn">
-                </div>
+                <input type="text" class="form-control" name="ejem_isbn" placeholder="Ingrese Isbn">
             </div>
-        </div>
-        <div >
-            <div>
-                <label>Idioma</label>
-                <div>
-                    <input type="text" name="ejem_Idioma">
-                </div>
-            </div>
-        </div>
-        <div >
-            <div>
-                <label>Portada</label>
-                <div>
-                    <input type="text" name="ejem_portada">
-                </div>
-            </div>
-        </div>
-        <div >
-            <div>
-                <label>Digital</label>
-                <div>
-                    <input type="text" name="ejem_digital">
-                </div>
-            </div>
-        </div>
-        }<div >
-            <div>
-                <label>Audio</label>
-                <div>
-                    <input type="text" name="ejem_audio">
-                </div>
-            </div>
-        </div>
-        <div >
-            <div>
-                <label>Resumen</label>
-                <div>
-                    <input type="text" name="ejem_resumen">
-                </div>
-            </div>
-        </div>
-        <div >
-            <div>
-                <label>Tipo</label>
-                <div>
-                    <input type="text" name="ejem_tipo_id">
-                </div>
-            </div>
-        </div>
-        <div >
-            <div>
-                <label>Categoria</label>
-                <div>
-                    <input type="text" name="ejem_cate_id">
-                </div>
-            </div>
-        </div>
-        <div >
-            <div>
-                <label>Valoracion</label>
-                <div>
-                    <input type="text" name="ejem_valoriacion">
-                </div>
-            </div>
-        </div>
-        <div >
-            <div>
-                <label>Anio</label>
-                <div>
-                    <input type="number" name="ejem_anio">
-                </div>
-            </div>
-        </div>
        
-        <div >
-            <input type="submit" value="Guardar" >
-        </div>
-    </div>
-</form>
+            <div class="form-group"> 
+                <label>Idioma</label>
+                <input type="text" class="form-control" name="ejem_Idioma" placeholder="Ingrese el Idioma">
+            </div>
+
+            <div class="form-group">
+                <label>Portada</label>
+                <input type="text" class="form-control" name="ejem_portada" placeholder="Ingrese la Portada">
+                </div>
+        
+        <div class="form-group">
+                <label>Digital</label>
+                <input type="text" class="form-control" name="ejem_digital" placeholder="">
+                </div>
+       
+        <div class="form-group" >
+           <label>Audio</label>
+            <input type="text"  class="form-control" name="ejem_audio" placeholder="">
+                </div>
+            <div class="form-group">
+                <label>Resumen</label>
+                <input type="text" class="form-control" name="ejem_resumen" placeholder="Ingrese el Resumen">
+            </div>
+        
+            <div class="form-group">
+                <label>Tipo</label>
+                <input type="text" class="form-control"  name="ejem_tipo_id" placeholder="Ingrese el Tipo">
+          
+            </div>
+        
+            <div class="form-group">
+                <label>Categoria</label>
+               <input type="text" class="form-control"  name="ejem_cate_id" placeholder="Ingrese la Categoría">
+            </div>
+          <div class="form-group">
+                <label>Valoracion</label>
+               <input type="text" class="form-control" name="ejem_valoriacion" placeholder="Ingrese la Valoración">
+             
+                </div>
+                    <label>Año</label>
+                    <input type="number" class="form-control" name="ejem_anio" placeholder="Ingrese el Año">
+                </div>
+            <div class="container">
+        <button type="submit" class="btn btn-primary">Guardar</button>        
+ </div>
+ </form>
+ </div> 

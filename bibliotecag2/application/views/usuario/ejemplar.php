@@ -1,4 +1,4 @@
- <h2 >Ejemplares </h2>                
+<h2 >Ejemplares </h2>                
 <table class="table table-bordered">
     <thead>
         <tr>
