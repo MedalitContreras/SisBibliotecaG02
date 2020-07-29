@@ -1,15 +1,7 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-</html>
-
 <div  class="container">
 
 <h2 align="center" class="display-4"><p><u>FORMULARIO</u></p></h2>
-<form action="<?php echo base_url('usuario/guardar') ?>" method="post"  class="form-group">
+<form method="post"  action="<?php echo base_url('Usuario/guardar') ?>"  class="form-group">
 
             <div class="form-group" > 
              <label><h4>Título</h4></label>

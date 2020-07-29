@@ -48,10 +48,10 @@ class Usuario extends CI_Controller
         $ejem_anio = $this->input->post('ejem_anio');
         $ejem_nprestamos= $this->input->post('ejem_nprestamos');
 
+       $this->load->model('model_usuario');
 
-
-        $this->load->model('model_usuario');
         $data = array(
+    
             'ejem_id'=>$ejem_id,
             'ejem_titulo'=>$ejem_titulo,
             'ejem_editorial'=>$ejem_editorial,
@@ -71,7 +71,7 @@ class Usuario extends CI_Controller
         );
         $this->model_usuario->guardar($data);
         
-        redirect('usuario');
+        redirect('usuario/ejemplar');
     }
   
    

@@ -1,11 +1,5 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-</html>
-<form action="<?php echo base_url('usuario/ejemplar') ?>" method="post"  class="form-group">
+
+
 <div class="container">
 <br><br>
 <h2 align="center" class="display-4"><P><u>EJEMPLARES</u></P> </h2>  
