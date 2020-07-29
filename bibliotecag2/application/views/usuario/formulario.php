@@ -45,7 +45,7 @@
                 <input type="text" class="form-control" name="ejem_resumen" placeholder="Ingrese el Resumen">
             </div>
         
-            <div class="form-group">
+          <div class="form-group">
                 <label><h4>Tipo</h4></label>
                 <input type="text" class="form-control"  name="ejem_tipo_id" placeholder="Ingrese el Tipo">
           
