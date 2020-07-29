@@ -59,7 +59,7 @@ class Usuario extends CI_Controller
             'ejem_nprestamos'=>$ejem_nprestamos
            
         );
-        $this->model_usuarios->guardar($data);
+        $this->model_usuario->guardar($data);
         
         redirect('usuario');
     }
