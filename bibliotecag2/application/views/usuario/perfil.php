@@ -11,9 +11,9 @@
     <a  href="<?php echo base_url('usuario/formulario') ?>"  type="button" class="btn btn-info">Ingresar Nuevo Libro</a>
 <br></br>
 <h2 >Ejemplares  </h2>                
-<table class="table table-bordered">
+<table class=" table">
     <thead>
-        <tr>
+        <tr class="table-active">
         <th scope="col">ID</th>
             <th scope="col"> Titulo</th>
             <th scope="col"> Editorial</th>
@@ -28,7 +28,7 @@
             <th  scope="col"> Categoria</th>
             <th  scope="col"> Valoracion</th>
             <th  scope="col"> Año</th>
-            <th  scope="col"> Numero de Prestamos</th>
+            <th  scope="col"> Préstamos</th>
            
         </tr>
     </thead>
