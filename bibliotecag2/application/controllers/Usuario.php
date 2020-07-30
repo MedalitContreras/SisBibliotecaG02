@@ -82,6 +82,12 @@ class Usuario extends CI_Controller
         
         redirect('usuario/ejemplar');
     }
+
+    public function eliminar($ejem_id){
+        $this->load->model('model_usuario');
+        $this->model_usuario->eliminar($ejem_id);
+        redirect('usuario/ejemplar');
+     }
  
    
 }

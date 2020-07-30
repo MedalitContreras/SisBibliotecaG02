@@ -10,5 +10,8 @@ class Model_usuario extends CI_Model
     {
         $this->db->insert('ejemplar',$data);
     }
-   
+    public function eliminar($ejem_id){
+        $this->db->where('ejem_id', $ejem_id);
+        $this->db->delete('ejemplar');
+     }
 }
