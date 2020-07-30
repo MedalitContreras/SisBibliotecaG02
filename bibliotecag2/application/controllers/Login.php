@@ -6,7 +6,7 @@ class Login extends CI_Controller {
 	public function index()
 	{
         $this->load->view('header');
-        $this->load->view('login');
+        $this->load->view('login/login');
         $this->load->view('footer');
     }
     
@@ -19,13 +19,13 @@ class Login extends CI_Controller {
         
         if($result->num_rows()>0){
             $row=$result->row();
-            echo "bienvenido {$row->usuario}";
+            echo "Bienvenido {$row->usuario}";
             $data=array('user'=>$row->usuario,'id'=>$row->id,'auth'=>true); 
             $this->session->set_userdata($data);
             redirect();
         }
         else{
-            echo "eres un impostor alv ";
+            echo "Acceso denegado";
             redirect('Login');
         }
     }
@@ -36,10 +36,41 @@ class Login extends CI_Controller {
         redirect();
     }
 
+    public function registro()
+    {
+        $this->load->view('header');
+        $this->load->view('login/registro');
+        $this->load->view('footer');
+    }
+
     public function guardar()
 	{
-        $this->session->sess_destroy();
-        redirect();
+
+        $usua_login = $this->input->post('usua_login');
+        $usua_password = $this->input->post('usua_password');
+        $usua_codigo = $this->input->post('usua_codigo');
+        $usua_nombres = $this->input->post('usua_nombres');
+        $usua_apellidos = $this->input->post('usua_apellidos');
+        $usua_direccion = $this->input->post('usua_direccion');
+        $usua_email = $this->input->post('usua_email');
+        $usua_telefono=$this->input->post('usua_telefono');
+
+        $this->load->model('model_login');
+
+        $data = array(
+            'usua_login'=>$usua_login,
+            'usua_password'=>$usua_password,
+            'usua_codigo'=>$usua_codigo,
+            'usua_nombres'=>$usua_nombres,
+            'usua_apellidos'=>$usua_apellidos,
+            'usua_direccion'=>$usua_direccion,
+            'usua_email'=>$usua_email,
+            'usua_telefono'=>$usua_telefono
+
+        );
+        $this->model_login->guardar($data);
+        
+        redirect('');
     }
 
     public function mostrar()
@@ -47,7 +78,7 @@ class Login extends CI_Controller {
         if($this->session->userdata('auth')==true){
            echo "uwu si puedes ver esto"; 
         }else{
-            echo "eres un impostor alv ";
+            echo "eres un impostor :v";
         }
         
 

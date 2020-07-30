@@ -8,6 +8,8 @@
 
   <a href="<?php echo base_url('Login'); ?>" class="navbar-brand" href="#">INGRESAR</a>
 
+  <a href="<?php echo base_url('Login/registro'); ?>" class="navbar-brand" href="#">REGISTRARSE</a>
+
   <a href="<?php echo base_url('Login/salir'); ?>" class="navbar-brand" href="#">SALIR</a>
   
   </button>
