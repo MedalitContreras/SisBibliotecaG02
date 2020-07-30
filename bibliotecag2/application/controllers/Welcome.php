@@ -6,7 +6,7 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		$this->load->view('header');
-		$this->load->view('usuario/perfil');
+		$this->load->view('login/sesion');
 		$this->load->view('footer');
 	}
 	public function confidencial()
@@ -15,8 +15,7 @@ class Welcome extends CI_Controller {
 		$ip=$this->session->userdata('id');
 		$data['usuario']=$this->db->query("SELECT * FROM usuario WHERE usua_id='{$ip}'")->row();
 		$this->load->view('header');
-		$this->load->view('usuario/perfil');
-		$this->load->view('confidencial',$data);
+		$this->load->view('login/sesion');
 		$this->load->view('footer');  
 		
     }
