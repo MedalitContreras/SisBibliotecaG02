@@ -4,7 +4,7 @@
 <br><br> 
 <a  href="<?php echo base_url('usuario/regresar') ?>" type="submit" class="btn btn-primary">Regresar Perfil</a>  
 
-<table class=" table">
+<table class='table table-bordered'>
     <thead>
         <tr class="table-active">
         <th scope="col">ID</th>
@@ -41,7 +41,8 @@
             <td><?php echo $reg->ejem_cate_id; ?></td>
             <td><?php echo $reg->ejem_valoracion; ?></td>
             <td><?php echo $reg->ejem_anio; ?></td>
-            <td><?php echo $reg->ejem_nprestamos; ?></td>     
+            <td><?php echo $reg->ejem_nprestamos; ?></td> 
+               
         </tr>
         <?php endforeach; ?>
     </tbody>
