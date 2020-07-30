@@ -1,4 +1,4 @@
-<h2 align="center" class="display-4">Biblioteca Virtuak</h2>
+<h2 align="center" class="display-4">Biblioteca Virtual</h2>
 <div class="container">
 <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
 
