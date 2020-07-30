@@ -36,6 +36,12 @@ class Login extends CI_Controller {
         redirect();
     }
 
+    public function guardar()
+	{
+        $this->session->sess_destroy();
+        redirect();
+    }
+
     public function mostrar()
 	{
         if($this->session->userdata('auth')==true){
