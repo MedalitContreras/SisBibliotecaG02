@@ -38,7 +38,7 @@
             <td><?php echo $reg->ejem_digital; ?></td>
             <td><?php echo $reg->ejem_audio; ?></td>
             <td><?php echo $reg->ejem_resumen; ?></td>
-            <?php echo $reg->ejem_cate_id; ?></td>
+            <td><?php echo $reg->ejem_cate_id; ?></td>
             <td><?php echo $reg->ejem_valoracion; ?></td>
             <td><?php echo $reg->ejem_anio; ?></td>
             <td><?php echo $reg->ejem_nprestamos; ?></td>     
