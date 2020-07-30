@@ -22,6 +22,7 @@
             <th  scope="col"> Valoracion</th>
             <th  scope="col"> Año</th>
             <th  scope="col"> Préstamos</th>
+            <th scope="col" >Opciones</th>
         </tr>
     </thead>
     <tbody>
@@ -37,7 +38,7 @@
             <td><?php echo $reg->ejem_digital; ?></td>
             <td><?php echo $reg->ejem_audio; ?></td>
             <td><?php echo $reg->ejem_resumen; ?></td>
-            <><?php echo $reg->ejem_cate_id; ?></td>
+            <?php echo $reg->ejem_cate_id; ?></td>
             <td><?php echo $reg->ejem_valoracion; ?></td>
             <td><?php echo $reg->ejem_anio; ?></td>
             <td><?php echo $reg->ejem_nprestamos; ?></td>     
