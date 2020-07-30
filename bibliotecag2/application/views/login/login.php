@@ -6,7 +6,7 @@
        <div class="modal-dialog text-center">
         <div class="col-sm-8 main-section">
         <div class="modal-content">
-        <di class="col-12 user-img"> 
+        <div class="col-12 user-img"> 
         <img src="imagenes/img.png"width="100" height="100">
         </div>
         <form class="col-12">
@@ -21,6 +21,7 @@
             <a  href="<?php echo base_url('usuario/regresar') ?>" type="submit" class="btn btn-primary" >Volver</a> 
             </div>
         </form>
+        </div>
         </div>
         </div>
        </div> 

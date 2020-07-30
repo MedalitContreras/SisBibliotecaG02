@@ -2,15 +2,15 @@
 <div class="container">
 <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
 
-  <a  href="<?php echo base_url('usuario/formulario') ?>" class="navbar-brand" href="#">Ingresar Nuevo Libro</a> 
+  <a  href="<?php echo base_url('usuario/formulario') ?>" class="navbar-brand" href="#"><i class="fas fa-book"></i> INGRESAR NUEVO LIBRO</a> 
 
-  <a  href="<?php echo base_url('usuario/ejemplar') ?>"  class="navbar-brand" href="#">Ejemplares</a>
+  <a  href="<?php echo base_url('usuario/ejemplar') ?>"  class="navbar-brand" href="#"><i class="fas fa-book-open"></i> EJEMPLARES </a>
 
-  <a href="<?php echo base_url('Login'); ?>" class="navbar-brand" href="#">INGRESAR</a>
+  <a href="<?php echo base_url('Login'); ?>" class="navbar-brand" href="#"><i class="fas fa-user-check"></i> INGRESAR</a>
 
-  <a href="<?php echo base_url('Login/registro'); ?>" class="navbar-brand" href="#">REGISTRARSE</a>
+  <a href="<?php echo base_url('Login/registro'); ?>" class="navbar-brand" href="#"><i class="fas fa-user-plus"></i> REGISTRARSE</a>
 
-  <a href="<?php echo base_url('Login/salir'); ?>" class="navbar-brand" href="#">SALIR</a>
+  <a href="<?php echo base_url('Login/salir'); ?>" class="navbar-brand" href="#"><i class="fas fa-sign-out-alt"></i> SALIR</a>
   
   </button>
 
