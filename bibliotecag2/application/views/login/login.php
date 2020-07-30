@@ -1,20 +1,32 @@
 <div class="container">
-<h2 align="center" class="display-4"><P><u>LOGIN</u></P></h2> 
+ 
 <form method="post" action="<?php echo base_url('Login/evaluar')?>" class="form-group">
        
-        <div class="form-group">
-            <label>USUARIO</label>
-            <input type="text" class="form-control" name="usuario">
+       <title>LOGIN</title>
+       <div class="modal-dialog text-center">
+        <div class="col-sm-8 main-section">
+        <div class="modal-content">
+        <di class="col-12 user-img"> 
+        <img src="imagenes/img.png"width="100" height="100">
         </div>
-           
-        <div class="form-group">
-           <label>CONTRASEÑA</label>
-            <input type="password"  class="form-control" name="password">
-         </div>
-
-        <div class="form-group">
-        <input class="btn btn-primary" type="submit" value="ingresar">
-        <a  href="<?php echo base_url('usuario/regresar') ?>" type="submit" class="btn btn-primary" >Volver</a> 
-        </div>    
+        <form class="col-12">
+            <div class="form-group" id="user-group">
+            <input type="text" class="form-control" placeholder="Nombre de usuario" name="usuario">
+            </div>
+            <div class="form-group" id="user-group">
+            <input type="password" class="form-control" placeholder="Contraseña" name="password">
+            </div>
+            <div class="form-group">
+            <input class="btn btn-primary" type="submit" value="Ingresar">
+            <a  href="<?php echo base_url('usuario/regresar') ?>" type="submit" class="btn btn-primary" >Volver</a> 
+            </div>
+        </form>
+        </div>
+        </div>
+       </div> 
 </form>
 </div>
+
+
+
+
