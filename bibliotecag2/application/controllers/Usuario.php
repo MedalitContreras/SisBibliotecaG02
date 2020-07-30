@@ -3,6 +3,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 class Usuario extends CI_Controller 
 {
+    public function __construct() {
+        parent:: __construct();
+        $this->load->model('model_usuario');
+    }
 	public function index()
 	{
        
@@ -90,14 +94,13 @@ class Usuario extends CI_Controller
      }
 
      public function edit($ejem_id){
-     
-        $this->load->view('header');
-        $this->load->view('editar');
-        $this->load->view('footer'); 
+     $this->load->view('header');
+     $this->load->view('editar');
+     $this->load->view('footer'); 
         
 }  
 
-public function actualizar($ejem_id) {
+     public function update($ejem_id) {
     $this->model_usuario->updateData($ejem_id);
     redirect('usuario/ejemplar');
 }

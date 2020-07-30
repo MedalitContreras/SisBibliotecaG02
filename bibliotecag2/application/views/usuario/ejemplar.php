@@ -1,5 +1,4 @@
-<div class="container">
-<br><br>
+
 <h2 align="center" class="display-4"><P><u>EJEMPLARES</u></P></h2>  
 <br><br> 
 <a  href="<?php echo base_url('usuario/regresar') ?>" type="submit" class="btn btn-primary">Regresar Perfil</a>  
@@ -43,10 +42,9 @@
             <td><?php echo $reg->ejem_valoracion; ?></td>
             <td><?php echo $reg->ejem_anio; ?></td>
             <td><?php echo $reg->ejem_nprestamos; ?></td> 
-            <td><a class="btn btn-success" href="<?php echo base_url('Usuario/edit');?>/<?php echo $reg->ejem_id;?>">Editar ... 
-            <a class="btn btn-danger" href="<?php echo base_url('Usuario/eliminar');?>/<?php echo $reg->ejem_id;?>">Eliminar</td>
-            
-            
+            <td><a class="btn btn-success" href="<?php echo base_url('usuario/edit');?>/<?php echo $reg->ejem_id;?>">Editar ... 
+            <a class="btn btn-danger" href="<?php echo base_url('usuario/eliminar');?>/<?php echo $reg->ejem_id;?>">Eliminar</td>
+                
         </tr>
         <?php endforeach; ?>
     </tbody>
