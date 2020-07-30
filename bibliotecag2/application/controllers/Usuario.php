@@ -15,6 +15,7 @@ class Usuario extends CI_Controller
         $this->load->view('usuario/perfil',$datos);
         $this->load->view('footer');
     }
+
     public function formulario()
     {
         $this->load->view('header');
