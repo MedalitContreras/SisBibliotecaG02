@@ -13,7 +13,8 @@
          </div>
 
         <div class="form-group">
-        <input type="submit" value="ingresar">
+        <input class="btn btn-primary" type="submit" value="ingresar">
+        <a  href="<?php echo base_url('usuario/regresar') ?>" type="submit" class="btn btn-primary" >Volver</a> 
         </div>
             
         
