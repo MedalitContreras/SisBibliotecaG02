@@ -95,7 +95,7 @@ class Usuario extends CI_Controller
 
      public function edit($ejem_id){
      $this->load->view('header');
-     $this->load->view('editar');
+     $this->load->view('usuario/editar');
      $this->load->view('footer'); 
         
 }  
