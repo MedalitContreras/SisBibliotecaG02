@@ -1,6 +1,6 @@
 <title>REGISTRARSE</title>
 <div  class="container">
-<h2>INGRESE SUS DATOS</h2>
+<h2 align="center" class="display-4"><p><u>INGRESE SUS DATOS</u></p></h2>
 <form action="<?php echo base_url('Login/guardar'); ?>" method="post">
 <div class="form-group" > 
             <div class="form-group">
@@ -36,7 +36,7 @@
                 <input type="number" class="form-control" name="usua_telefono" >
             </div>
             <div class="form-group">
-                <td colspan="2"><input type="submit" value="Ingresar"></td>
+                <td colspan="2"><input type="submit"  class="btn btn-primary" value="Ingresar"></td>
             </div>
 </div>
 </div>
