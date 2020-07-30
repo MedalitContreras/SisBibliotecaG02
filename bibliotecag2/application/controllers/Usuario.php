@@ -94,7 +94,13 @@ class Usuario extends CI_Controller
         $this->load->view('header');
         $this->load->view('editar');
         $this->load->view('footer'); 
+        
 }  
+
+public function actualizar($ejem_id) {
+    $this->model_usuario->updateData($ejem_id);
+    redirect('usuario/ejemplar');
+}
  
    
 }

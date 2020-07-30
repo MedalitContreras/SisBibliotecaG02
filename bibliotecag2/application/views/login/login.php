@@ -18,7 +18,7 @@
             </div>
             <div class="form-group">
             <input class="btn btn-primary" type="submit" value="Ingresar">
-            <a  href="<?php echo base_url('usuario/regresar') ?>" type="submit" class="btn btn-primary" >Volver</a> 
+            <a  href="<?php echo base_url('usuario/regresar') ?>" type="submit" class="btn btn-danger" >Cancelar</a> 
             </div>
         </form>
         </div>
