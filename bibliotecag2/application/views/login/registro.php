@@ -37,6 +37,7 @@
             </div>
             <div class="form-group">
                 <td colspan="2"><input type="submit"  class="btn btn-primary" value="Ingresar"></td>
+                <a  href="<?php echo base_url('usuario/regresar') ?>" type="submit" class="btn btn-danger" >Cancelar</a> 
             </div>
 </div>
 </div>
