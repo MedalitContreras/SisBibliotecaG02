@@ -43,7 +43,10 @@
             <td><?php echo $reg->ejem_valoracion; ?></td>
             <td><?php echo $reg->ejem_anio; ?></td>
             <td><?php echo $reg->ejem_nprestamos; ?></td> 
-               
+            <td><a class="btn btn-success" href="<?php echo base_url('Usuario/edit');?>/<?php echo $reg->ejem_id;?>">Editar ... 
+            <a class="btn btn-danger" href="<?php echo base_url('Usuario/eliminar');?>/<?php echo $reg->ejem_id;?>">Eliminar</td>
+            
+            
         </tr>
         <?php endforeach; ?>
     </tbody>

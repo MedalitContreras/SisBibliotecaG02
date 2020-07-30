@@ -23,7 +23,7 @@
        
             <div class="form-group"> 
                 <label><h4>Idioma</h4></label>
-                <input type="text" class="form-control" name="ejem_Idioma" placeholder="Ingrese el Idioma">
+                <input type="text" class="form-control" name="ejem_idioma" placeholder="Ingrese el Idioma">
             </div>
 
             <div class="form-group">
@@ -57,7 +57,7 @@
             </div>
           <div class="form-group">
                 <label><h4>Valoracion</h4></label>
-               <input type="text" class="form-control" name="ejem_valoriacion" placeholder="Ingrese la Valoración">
+               <input type="text" class="form-control" name="ejem_valoracion" placeholder="Ingrese la Valoración">
              
                 </div>
                     <label><h4>Año</h4></label>
