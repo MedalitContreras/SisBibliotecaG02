@@ -56,7 +56,7 @@ class Usuario extends CI_Controller
         $ejem_cate_id = $this->input->post('ejem_cate_id');
         $ejem_valoracion = $this->input->post('ejem_valoracion');
         $ejem_anio = $this->input->post('ejem_anio');
-        $ejem_nprestamos= $this->input->post('ejem_nprestamos');
+        $ejem_nprestamos= $this->input->post('ejem_nprestamos1');
 
        $this->load->model('model_usuario');
 
