@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 29-07-2020 a las 01:38:19
+-- Tiempo de generación: 30-07-2020 a las 02:41:15
 -- Versión del servidor: 10.4.13-MariaDB
 -- Versión de PHP: 7.4.7
 
@@ -241,6 +241,21 @@ CREATE TABLE `usuario` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
+-- Volcado de datos para la tabla `usuario`
+--
+
+INSERT INTO `usuario` (`usua_id`, `usua_login`, `usua_password`, `usua_codigo`, `usua_nombres`, `usua_apellidos`, `usua_direccion`, `usua_email`, `usua_telefono`, `usua_esadmin`) VALUES
+(1, 'Maria', 'sk2ldh5873', 191230, 'Maria Pancha ', 'Venegaz Tieso ', 'AV. 20 DE NOVIEMBRE NO.859-B', 'aguevara@idiomas.udea.edu.co', '923345098', NULL),
+(2, 'Papita', 'kj39sdhj4', 198734, 'JOSÉ FELIPE', 'HURTADO TOMBÉ ', 'Cuesta Lorem, 16 11ºE', 'jhutado@ idomas.udea.edu.co\r\n', '892348164', NULL),
+(3, 'Tamalito:3', 'io4hsd34', 194582, ' JUAN DAVID', 'LOPEZ ', 'Glorieta Lorem ipsum dolor sit, 205 15ºB', 'juandavidlopez@ubicar.com', '976182648', NULL),
+(4, 'Tomatejpg', '83hys\'3ks', 196728, 'Dilean ', 'Cañas Alvarez ', 'Glorieta Lorem, 80 17ºC', 'dcanas@idiomas.udea.edu.co', '986287648', NULL),
+(5, 'Calcetin', '8932uier32', 196726, 'Maria Victoria ', 'Higuita Otero', 'Camino Lorem ipsum dolor, 168A', 'vhiguita@idiomas.udea,edu.co', '987267321', NULL),
+(6, 'Panquesito', '032nsu8', 193489, 'Jorge Martin', 'Zapata Mansilla', 'Carrera Lorem, 6B 19ºE', 'menadel@hotmail.com', '983204828', NULL),
+(7, 'Luismi', 'ioo389340ujj', 193432, 'Ana María ', 'Guerra Correo', 'Carretera Lorem ipsum dolor sit, 87B 13ºD', 'shida_barak@yahoo.com', '912873491', NULL),
+(8, 'Palta', 'ricapalta', 197365, 'Reinaldo Miguel', 'Narvaez Zanabria', 'Travesía Lorem ipsum dolor sit, 38A 20º', 'reinald_34@hotmail.com', '965234987', NULL),
+(9, 'Arfresi', 'laflsmtfr', 192288, 'Claudia Marcela', 'Martinez Galvis', 'Carrer Lorem, 63B 10ºG', 'vivian_981@yahoo.com', '9782345', NULL);
+
+--
 -- Índices para tablas volcadas
 --
 
@@ -357,7 +372,7 @@ ALTER TABLE `prestamo`
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `usua_id` int(11) NOT NULL AUTO_INCREMENT;
+  MODIFY `usua_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- Restricciones para tablas volcadas
