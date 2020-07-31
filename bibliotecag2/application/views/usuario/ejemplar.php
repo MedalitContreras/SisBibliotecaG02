@@ -12,8 +12,8 @@
   <a href="<?php echo base_url('Login/salir'); ?>" class="navbar-brand" href="#"><i class="fas fa-sign-out-alt"></i> SALIR</a>
 
   </nav> 
-<h2 align="center" class="display-4"><P><u>EJEMPLARES</u></P></h2>  
-<br><br>
+<h2 align="center" class="display-4"><P class="text-info">EJEMPLARES</P></h2>  
+<br>
 
   
 
