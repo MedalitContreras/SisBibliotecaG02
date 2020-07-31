@@ -1,4 +1,7 @@
-<img src="imagenes/libros.png" width="150" height="150"><h2  class="display-4">Biblioteca Virtual</h2>
+<div>
+  <img src="../imagenes/libros.png" width="150" height="150">
+  <h2  class="display-4">Biblioteca Virtual</h2>
+</div>
 <div class="container">
 <nav class="navbar navbar-light" style="background-color: #e3f2fd;"> 
  
