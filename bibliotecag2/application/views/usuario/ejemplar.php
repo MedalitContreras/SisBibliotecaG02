@@ -20,7 +20,7 @@
 
   
 
-<table class='table table-bordered'>
+<table class="table-bordered">
     <thead>
         <tr class="table-active">
         <th scope="col">ID</th>
