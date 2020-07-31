@@ -60,7 +60,7 @@ Carpeta usuario: categoria.php , editar.php , ejemplar.php .formulario.php y per
 * **Ticona Velasquez, Yosseline Keila** - *Crear tablas, Llenar tablas* - https://github.com/keilaticona
 * **Perez Mamani, Fiorela** - *Bootstrap4, Función eliminar y editar* - https://github.com/Fiorela19
 
-También puedes mirar la lista de todos los [contribuyentes](https://github.com/MedalitContreras/SisBibliotecaG02/graphs/contributors) quienes han participado en este proyecto. 
+También puedes mirar la lista de todos los [contribuyentes] https://github.com/MedalitContreras/SisBibliotecaG02/graphs/contributors quienes han participado en este proyecto. 
 
 ## Licencia 📄
 
