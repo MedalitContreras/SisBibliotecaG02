@@ -1,9 +1,10 @@
+<div class="text-center">
 <div class="libros">
   <img src="../imagenes/libros.png" width="150" height="150" >
   <h2  class="display-4">Biblioteca</h2>
   <h2  class="display-4"> Virtual</h2>
 </div>
-
+</div>
 
 <div class="container">
 <nav class="navbar navbar-light" style="background-color: #e3f2fd;"> 
