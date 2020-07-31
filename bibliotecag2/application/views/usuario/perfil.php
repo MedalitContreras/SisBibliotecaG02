@@ -1,7 +1,10 @@
-<div>
-  <img src="../imagenes/libros.png" width="150" height="150">
-  <h2  class="display-4">Biblioteca Virtual</h2>
+<div class="libros">
+  <img src="../imagenes/libros.png" width="150" height="150" >
+  <h2  class="display-4">Biblioteca</h2>
+  <h2  class="display-4">Virtual</h2>
 </div>
+
+
 <div class="container">
 <nav class="navbar navbar-light" style="background-color: #e3f2fd;"> 
  
