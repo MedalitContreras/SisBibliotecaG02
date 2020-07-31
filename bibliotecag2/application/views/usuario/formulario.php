@@ -1,6 +1,7 @@
+
 <div  class="container">
 
-<h2 align="center" class="display-4"><p><u>FORMULARIO</u></p></h2>
+<h2 align="center" class="display-4"><p><u>INGRESE UN NUEVO LIBRO</u></p></h2>
 <form method="post"  action="<?php echo base_url('Usuario/guardar') ?>"  class="form-group">
 
             <div class="form-group" > 
