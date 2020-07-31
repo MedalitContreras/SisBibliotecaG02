@@ -6,6 +6,8 @@
 
   <a  href="<?php echo base_url('usuario/ejemplar') ?>"  class="navbar-brand" href="#"><i class="fas fa-book-open"></i> EJEMPLARES </a>
 
+  <a  href="<?php echo base_url('usuario/categoria') ?>"  class="navbar-brand" href="#"><i class="fas fa-book-open"></i> CATEGORIA </a>
+
   <a href="<?php echo base_url('Login'); ?>" class="navbar-brand" href="#"><i class="fas fa-user-check"></i> INGRESAR</a>
 
   <a href="<?php echo base_url('Login/registro'); ?>" class="navbar-brand" href="#"><i class="fas fa-user-plus"></i> REGISTRARSE</a>
@@ -21,6 +23,7 @@
             <div class="form-group" > 
              <label><h4>Título</h4></label>
                 <input type="text" class="form-control" name="ejem_titulo" placeholder="Ingrese el Título">
+            </div>
             <div  class="form-group">
                 <label><h4>Editorial</h4></label>
                 <input type="text" class="form-control" name="ejem_editorial" placeholder="Ingrese la Editorial">

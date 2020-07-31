@@ -134,6 +134,40 @@ class Usuario extends CI_Controller
 
        // redirect('usuario/perfil');
     }
+    public function guardar_cate()
+    {
+        $ejem_id = $this->input->post('cate_id');
+        $ejem_titulo = $this->input->post('cate_nombre');
+        $this->load->model('model_usuario');
+
+        $data = array(
+    
+            'cate_id'=>$cate_id,
+            'cate_nombre'=>$cate_nombre
+        );
+        $this->model_usuario->guardar_cate($data);
+        
+        redirect('usuario/categoria');
+    }
+    public function eliminar_cate($cate_id){
+        $this->load->model('model_usuario');
+        $this->model_usuario->eliminar_cate($cate_id);
+        redirect('usuario/categoria');
+     }
+
+     public function edit_cate($cate_id){
+        $categoria = $this->db->get_where('categoria', array('cate_id' => $cate_id))->row();
+        $this->load->view('header');
+        $this->load->view('usuario/editar_cate', array('categoria'=>$categoria));
+        $this->load->view('footer'); 
+           
+    }  
+    public function update_cate($cate_id)
+    {
+        $categoria=new model_usuario;
+       $categoria->update_cate($cate_id);
+       redirect(base_url('categoria'));
+    }
 
 }
  
