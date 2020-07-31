@@ -17,6 +17,7 @@
 <div  class="container">
 <h2 align="center" class="display-4"><p><u>INGRESE SUS DATOS</u></p></h2>
 <form action="<?php echo base_url('Login/guardar'); ?>" method="post">
+<div class="modal-dialog text-center">
 <div class="form-group" > 
             <div class="form-group">
                 <label><h4><i class="fas fa-user-edit"></i> Nombre de Usuario: </h4></label>
@@ -54,6 +55,7 @@
                 <td colspan="2"><input type="submit"  class="btn btn-primary" value="Ingresar"></td>
                 <a  href="<?php echo base_url('usuario/regresar') ?>" type="submit" class="btn btn-danger" ><i class="fas fa-user-times"></i> Cancelar</a> 
             </div>
+</div>
 </div>
 </div>
 </form>

@@ -15,7 +15,8 @@
   <a href="<?php echo base_url('Login/salir'); ?>" class="navbar-brand" href="#"><i class="fas fa-sign-out-alt"></i> SALIR</a>
 
 </nav> 
-<h2 align="center" class="display-4" class="text-info"><p><u>CATEGORÍA</u></p></h2>             
+<h2 align="center" class="display-4" class="text-info"><p><u>CATEGORÍA</u></p></h2>     
+<div class="modal-dialog text-center">        
 <table class="table-bordered">
     <thead>
         <tr class="table-active">
@@ -38,3 +39,4 @@
         <?php endforeach; ?>
     </tbody>
 </table>
+</div>
