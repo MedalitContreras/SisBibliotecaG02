@@ -22,7 +22,7 @@ class Login extends CI_Controller {
             echo "Bienvenido {$row->usuario}";
             $data=array('user'=>$row->usuario,'id'=>$row->id,'auth'=>true); 
             $this->session->set_userdata($data);
-            redirect('login/sesion');
+            redirect();
         }
         else{
             echo "Acceso denegado";
