@@ -4,7 +4,7 @@ Una biblioteca virtual  es una colección de objetos digitales más o menos orga
 
 ## Comenzando 🚀
 
-Estas repositorio te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
+Este repositorio te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
 
 ### Pre-requisitos 📋
 
