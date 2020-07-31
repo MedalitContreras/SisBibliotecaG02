@@ -50,8 +50,6 @@ Carpeta usuario: categoria.php , editar.php , ejemplar.php .formulario.php y per
 ```
 ## Construido con 🛠️
 
-_Menciona las herramientas que utilizaste para crear tu proyecto_
-
 * https://getbootstrap.com/docs/4.5/getting-started/introduction/ - El Bootstrap web usado
 * http://localhost/phpmyadmin/db_structure.php?server=1&db=sisbibliotecag2 - Base de datos
 * Git Bash - Para trabajar en grupo
