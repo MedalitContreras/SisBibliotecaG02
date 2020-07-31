@@ -94,16 +94,36 @@ class Usuario extends CI_Controller
      }
 
      public function edit($ejem_id){
-     $this->load->view('header');
-     $this->load->view('usuario/editar');
-     $this->load->view('footer'); 
-        
-}  
+        $usuario = $this->db->get_where('ejemplar', array('ejem_id' => $ejem_id))->row();
+        $this->load->view('header');
+        $this->load->view('usuario/editar', array('ejemplar'=>$usuario));
+        $this->load->view('footer'); 
+           
+    }  
 
-     public function update($ejem_id) {
-    $this->model_usuario->updateData($ejem_id);
-    redirect('usuario/ejemplar');
+    public function update($ejem_id){
+        $this->load->model('model_usuario');
+        $data=array(
+            'ejem_id' => $this->input->post('ejem_id'),
+            'ejem_titulo' => $this->input->post('ejem_titulo'),
+            'ejem_editorial' => $this->input->post('ejem_editorial'),
+            'ejem_paginas' => $this->input->post('ejem_paginas'),
+            'ejem_isbn' => $this->input->post('ejem_isbn'),
+            'ejem_idioma' => $this->input->post('ejem_idioma'),
+            'ejem_portada' => $this->input->post('ejem_portada'),
+            'ejem_digital' => $this->input->post('ejem_digital'),
+            'ejem_audio' => $this->input->post('ejem_audio'),
+            'ejem_resumen' => $this->input->post('ejem_resumen'),
+            'ejem_tipo_id' => $this->input->post('ejem_tipo_id'),
+            'ejem_cate_id' => $this->input->post('ejem_cate_id'),
+            'ejem_valoracion' => $this->input->post('ejem_valoracion'),
+            'ejem_anio' => $this->input->post('ejem_anio'),
+            'ejem_nprestamos'=> $this->input->post('ejem_nprestamos')
+
+        );
+        redirect('usuario/ejemplar');
+    }
 }
  
    
-}
+

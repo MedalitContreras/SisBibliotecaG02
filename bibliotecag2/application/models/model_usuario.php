@@ -17,4 +17,12 @@ class Model_usuario extends CI_Model
         $this->db->where('ejem_id', $ejem_id);
         $this->db->delete('ejemplar');
      }
+     public function update($ejem_id) 
+     {
+         
+         $this->db->where('ejem_id',$ejem_id);
+         $this->db->update('ejemplar',$data);
+          
+     }
+     
 }
