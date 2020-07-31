@@ -20,8 +20,6 @@ autor.sql
 ```
 ### Instalación 🔧
 
-_Una serie de ejemplos paso a paso que te dice lo que debes ejecutar para tener un entorno de desarrollo ejecutandose_
-
 Crear una base de datos en PHPMyAdmin.
 
 ```
