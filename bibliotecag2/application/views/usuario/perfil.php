@@ -1,7 +1,7 @@
 <div class="libros">
   <img src="../imagenes/libros.png" width="150" height="150" >
   <h2  class="display-4">Biblioteca</h2>
-  <h2  class="display-4">Virtual</h2>
+  <h2  class="display-4"> Virtual</h2>
 </div>
 
 
@@ -12,11 +12,11 @@
 
   <a  href="<?php echo base_url('usuario/ejemplar') ?>"  class="navbar-brand" href="#"><i class="fas fa-book-open"></i> EJEMPLARES </a>
 
-  <a href="<?php echo base_url('Login'); ?>" class="navbar-brand" href="#"><i class="fas fa-user-check"></i> INGRESAR</a>
-
   <a href="<?php echo base_url('Welcome/confidencial'); ?>" class="navbar-brand" href="#"><i class="fas fa-user-secret"></i> CONFIDENCIAL</a>
 
   <a href="<?php echo base_url('Login/registro'); ?>" class="navbar-brand" href="#"><i class="fas fa-user-plus"></i> REGISTRARSE</a>
+  
+  <a href="<?php echo base_url('Login'); ?>" class="navbar-brand" href="#"><i class="fas fa-user-check"></i> INGRESAR</a>
 
   <a href="<?php echo base_url('Login/salir'); ?>" class="navbar-brand" href="#"><i class="fas fa-sign-out-alt"></i> SALIR</a>
   
