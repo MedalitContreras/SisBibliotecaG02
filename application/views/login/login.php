@@ -30,7 +30,7 @@
                             <input type="text" class="form-control" placeholder="Nombre de usuario" name="usuario">
                             </div>
                             <div class="form-group" id="user-group">
-                            <label><h4><i class="fas fa-user-lock"></i> Contraseña:</h4></label>
+                            <label><h4><i class="fas fa-key"></i> Contraseña:</h4></label>
                             <input type="password" class="form-control" placeholder="Contraseña" name="password">
                             </div>
                             <div class="form-group">
