@@ -56,7 +56,7 @@ Carpeta usuario: categoria.php , editar.php , ejemplar.php .formulario.php y per
 
 ## Autores ✒️
 
-* **• Contreras Chuquitarqui, Milagros Medalit** - *Crear reposito, Trello, login* - https://github.com/MedalitContreras
+* **Contreras Chuquitarqui, Milagros Medalit** - *Crear reposito, Trello, login* - https://github.com/MedalitContreras
 * **Ticona Velasquez, Yosseline Keila** - *Crear tablas, Llenar tablas* - https://github.com/keilaticona
 * **Perez Mamani, Fiorela** - *Bootstrap4, Función eliminar y editar* - https://github.com/Fiorela19
 
