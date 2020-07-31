@@ -3,8 +3,8 @@
 
 <h3>BIENVENIDO A BIBLIOTECA VIRTUAL</h3>
 <h4>Gracias por ingresar a nuestro sistema :3</h4>
-<h4> Por haberse registrado le daremos un gato </h4>
-<img src="../imagenes/gato.gif"width="150" height="200">
+<h4> Por haberse registrado le daremos 10 prestamos gratis !!</h4>
+<img src="../imagenes/yanogato.gif"width="300" height="150">
 
 </div>
 </div>
