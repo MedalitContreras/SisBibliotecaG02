@@ -123,6 +123,18 @@ class Usuario extends CI_Controller
         );
         redirect('usuario/ejemplar');
     }
+    public function categoria(){
+
+        $this->load->model('model_usuario');
+        $result = $this->model_usuario->ver();
+        $datos = array('registros'=>$result);
+        $this->load->view('header');
+        $this->load->view('usuario/categoria',$datos);
+        $this->load->view('footer');
+
+       // redirect('usuario/perfil');
+    }
+
 }
  
    

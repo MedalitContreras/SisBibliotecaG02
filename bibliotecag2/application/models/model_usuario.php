@@ -24,5 +24,11 @@ class Model_usuario extends CI_Model
          $this->db->update('ejemplar',$data);
           
      }
+     public function ver()
+     {
+         $query = $this->db->get('categoria', 30);
+         return $query->result();
+     }
+     
      
 }

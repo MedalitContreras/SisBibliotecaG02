@@ -6,6 +6,8 @@
 
   <a  href="<?php echo base_url('usuario/ejemplar') ?>"  class="navbar-brand" href="#"><i class="fas fa-book-open"></i> EJEMPLARES </a>
 
+  <a  href="<?php echo base_url('usuario/categoria') ?>"  class="navbar-brand" href="#"><i class="fas fa-book-open"></i> CATEGORIA </a>
+
   <a href="<?php echo base_url('Login'); ?>" class="navbar-brand" href="#"><i class="fas fa-user-check"></i> INGRESAR</a>
 
   <a href="<?php echo base_url('Login/registro'); ?>" class="navbar-brand" href="#"><i class="fas fa-user-plus"></i> REGISTRARSE</a>
@@ -24,11 +26,11 @@
     <tbody>
         <?php foreach ($registros as $reg): ?>
         <tr>
-        <td><?php echo $reg->id; ?></td>
-            <td><?php echo $reg->nombres; ?></td>
+            <td><?php echo $reg->cate_id; ?></td>
+            <td><?php echo $reg->cate_nombre; ?></td>
             <td>               
-                <form method="DELETE" action="<?php echo base_url('usuario/delete/'.$reg->id);?>">
-                 <a  href="<?php echo base_url('usuario/edit/'.$reg->id) ?>"> Editar</a>
+                <form method="DELETE" action="<?php echo base_url('usuario/delete/'.$reg->cate_id);?>">
+                 <a  href="<?php echo base_url('usuario/edit/'.$reg->cate_id) ?>"> Editar</a>
                  <button type="submit"> Eliminar</button>
                 </form>
             </td>    
