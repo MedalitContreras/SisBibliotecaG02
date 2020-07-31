@@ -11,7 +11,7 @@ class Welcome extends CI_Controller {
 	}
 	public function confidencial()
 	{
-		if($this->session->userdata('auth')!=true) die('ACCESO DENEGADO');
+		if($this->session->userdata('auth')!=true) die('ACCESO DENEGADO   Registrese para poder ver esta informacion');
 		$ip=$this->session->userdata('id');
 		$data['usuario']=$this->db->query("SELECT * FROM usuario WHERE usua_id='{$ip}'")->row();
 		$this->load->view('header');
