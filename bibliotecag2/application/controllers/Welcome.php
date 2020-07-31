@@ -13,7 +13,7 @@ class Welcome extends CI_Controller {
 	{
 		if($this->session->userdata('auth')!=true) die('ACCESO DENEGADO');
 		$ip=$this->session->userdata('id');
-		$data['tda']=$this->db->query("SELECT * FROM tda WHERE usua_id='{$ip}'")->row();
+		$data['usuario']=$this->db->query("SELECT * FROM usuario WHERE usua_id='{$ip}'")->row();
 		$this->load->view('header');
 		$this->load->view('usuario/perfil');
 		$this->load->view('login/confidencial',$data);

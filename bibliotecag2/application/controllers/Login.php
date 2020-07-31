@@ -15,7 +15,7 @@ class Login extends CI_Controller {
         $usuario=$this->input->post('usuario');
         $password=$this->input->post('password');
 
-        $result=$this->db->query("SELECT * FROM tda WHERE usua_login='{$usuario}' AND  usua_password='{$password}'");
+        $result=$this->db->query("SELECT * FROM usuario WHERE usua_login='{$usuario}' AND  usua_password='{$password}'");
         
         if($result->num_rows()>0){
             $row=$result->row();
