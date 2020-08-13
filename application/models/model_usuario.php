@@ -48,6 +48,17 @@ class Model_usuario extends CI_Model
          return $this->db->update('categoria',$data);
            
       }
+
+      function getCategorias(){
+        $registros = $this->db->query("SELECT * FROM categoria")->result();
+        $opciones = array();
+       foreach($registros as $reg){
+          $opciones[$reg->cate_id] = $reg->cate_nombre;
+       }
+       return $opciones;
+     }
+  
+      
       
      
      

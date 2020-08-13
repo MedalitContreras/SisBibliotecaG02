@@ -23,7 +23,13 @@ class Usuario extends CI_Controller
     public function formulario()
     {
         $this->load->view('header');
-        $this->load->view('usuario/formulario');
+     
+            $this->load->helper('form');
+            $this->load->model('Model_Usuario');
+            $opciones = $this->Model_Usuario->getCategorias();
+            $data['opciones']= $opciones;
+    
+            $this->load->view('usuario/formulario',$data);
         $this->load->view('footer');
     }
     public function ejemplar(){
@@ -169,7 +175,10 @@ class Usuario extends CI_Controller
        redirect(base_url('categoria'));
     }
 
-    
+    public function evalua(){
+        $cate_id = $this->input->post('cate_id');
+        echo $cate_id;
+     }
 
 }
  
