@@ -129,7 +129,7 @@ class Usuario extends CI_Controller
         );
         redirect('usuario/ejemplar');
     }
-    public function categoria(){
+  /*  public function categoria(){
 
         $this->load->model('model_usuario');
         $result = $this->model_usuario->ver();
@@ -139,7 +139,7 @@ class Usuario extends CI_Controller
         $this->load->view('footer');
 
        // redirect('usuario/perfil');
-    }
+    }*/
     public function guardar_cate()
     {
         $ejem_id = $this->input->post('cate_id');
@@ -174,7 +174,15 @@ class Usuario extends CI_Controller
        $categoria->update_cate($cate_id);
        redirect(base_url('categoria'));
     }
-
+    public function categoria(){
+        $this->load->view('header');
+        $registros = $this->db->query("
+                SELECT * FROM  ejemplar,categoria
+                WHERE ejem_cate_id=cate_id ")->result();
+        $data['registros']= $registros;
+        $this->load->view("usuario/categoria",$data);
+        $this->load->view('footer');
+    }
     public function evalua(){
         $cate_id = $this->input->post('cate_id');
         echo $cate_id;
