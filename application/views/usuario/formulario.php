@@ -19,7 +19,7 @@
 
 <h2 align="center" class="display-4"><p><u>INGRESE UN NUEVO LIBRO</u></p></h2>
 <form method="post"  action="<?php echo base_url('Usuario/guardar') ?>"  class="form-group">
-<div class="modal-dialog text-center">
+
             <div class="form-group" > 
              <label><h4><i class="fas fa-bookmark"></i> Título:</h4></label>
                 <input type="text" class="form-control" name="ejem_titulo" placeholder="Ingrese el Título">
@@ -86,7 +86,7 @@
             <button type="submit" class="btn btn-primary"><i class="fas fa-check"></i> Guardar</button>  
             <a  href="<?php echo base_url('usuario/regresar') ?>" type="submit" class="btn btn-danger" ><i class="fas fa-times"></i> Cancelar</a> 
        
- </div>
+ 
  </div>
  </form>
  </div> 

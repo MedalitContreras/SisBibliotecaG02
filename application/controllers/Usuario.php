@@ -169,6 +169,8 @@ class Usuario extends CI_Controller
        redirect(base_url('categoria'));
     }
 
+    
+
 }
  
    
