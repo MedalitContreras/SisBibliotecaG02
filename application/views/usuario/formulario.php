@@ -138,11 +138,11 @@
          echo  form_submit('Guardar','Guardar',$data_g);
 
  echo form_close(); 
- /*
+
  echo form_open('Usuario/regresar');
  $data_b = array( 'class'=>'btn btn-danger' );  
  echo  form_submit('Cancelar','Cancelar',$data_b);  
- echo form_close(); */
+ echo form_close(); 
 
  
 ?>

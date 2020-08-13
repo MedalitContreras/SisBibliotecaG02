@@ -1,6 +1,6 @@
 <div class=container>
 <h2 align="center" class="display-4" class="text-info"><p><u>CATEGORÍA</u></p></h2>     
-<div class="modal-dialog text-center">        
+       
 <table class="table-bordered">
     <thead>
         <tr class="table-active">
