@@ -23,28 +23,28 @@
             <th  scope="col"> Valoracion</th>
             <th  scope="col"> Año</th>
             <th  scope="col"> Préstamos</th>
-            <th scope="col" >Opciones</th>
+            <th  scope="col"> Opciones</th>
         </tr>
     </thead>
     <tbody>
         <?php foreach ($registros as $reg): ?>
         <tr>
-            <td><?php echo $reg->ejem_id; ?></td>
-            <td><?php echo $reg->ejem_titulo; ?></td>
-            <td><?php echo $reg->ejem_editorial; ?></td>
-            <td><?php echo $reg->ejem_paginas; ?></td>
-            <td><?php echo $reg->ejem_isbn; ?></td>
-            <td><?php echo $reg->ejem_idioma; ?></td>
-            <td><?php echo $reg->ejem_portada; ?></td>
-            <td><?php echo $reg->ejem_digital; ?></td>
-            <td><?php echo $reg->ejem_audio; ?></td>
-            <td><?php echo $reg->ejem_resumen; ?></td>
-            <td><?php echo $reg->ejem_tipo_id; ?></td>
-            <td><?php echo $reg->ejem_cate_id; ?></td>
-            <td><?php echo $reg->ejem_valoracion; ?></td>
-            <td><?php echo $reg->ejem_anio; ?></td>
-            <td><?php echo $reg->ejem_nprestamos; ?></td> 
-            <td><a class="btn btn-success" href="<?php echo base_url('usuario/edit');?>/<?php echo $reg->ejem_id;?>">Editar ... 
+            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_id; ?></div></th>
+            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_titulo; ?></div></th>
+            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_editorial; ?></div></th>
+            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_paginas; ?></div></th>
+            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_isbn; ?></div></th>
+            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_idioma; ?></div></th>
+            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_portada; ?></div></th>
+            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_digital; ?></div></th>
+            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_audio; ?></div></th>
+            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_resumen; ?></div></th>
+            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_tipo_id; ?></div></th>
+            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_cate_id; ?></div></th>
+            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_valoracion; ?></div></th>
+            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_anio; ?></div></th>
+            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_nprestamos; ?></div></th> 
+            <th><a class="btn btn-success" href="<?php echo base_url('usuario/edit');?>/<?php echo $reg->ejem_id;?>">Editar ... 
             <a class="btn btn-danger" href="<?php echo base_url('usuario/eliminar');?>/<?php echo $reg->ejem_id;?>">Eliminar</td>
                 
         </tr>

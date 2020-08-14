@@ -5,10 +5,10 @@
     <thead>
         <tr class="table-active">
         <th scope="col">ID</th>
-        <th scope="col"> Nombre del libro</th>
-        <th>Resumen</th>
-        <th>Categoria</th> 
-        <th>Opciones</th>
+        <th scope="col">Nombre del libro</th>
+        <th scope="col">Resumen</th>
+        <th scope="col">Categoria</th> 
+        <th scope="col">Opciones</th>
         </tr>
     </thead>
     <tbody>
