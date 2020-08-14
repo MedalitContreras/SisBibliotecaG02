@@ -9,20 +9,20 @@
     <thead>
         <tr class="table-active">
         <th scope="col">ID</th>
-            <th scope="col"> Titulo</th>
-            <th scope="col"> Editorial</th>
-            <th scope="col"> Paginas</th>
-            <th scope="col"> isbn</th>
-            <th scope="col"> Idioma</th>
-            <th scope="col"> Portada</th>
-            <th  scope="col"> Digital</th>
-            <th  scope="col"> Resumen</th>
-            <th  scope="col"> Tipo</th>
-            <th  scope="col"> Categoria</th>
-            <th  scope="col"> Valoracion</th>
-            <th  scope="col"> Año</th>
-            <th  scope="col"> Préstamos</th>
-            <th  scope="col"> Opciones</th>
+            <th scope="col"><div class="text-center"> Titulo</div></th>
+            <th scope="col"><div class=" text-center"> Editorial</div></th>
+            <th scope="col"><div class=" text-center"> Paginas</div></th>
+            <th scope="col"><div class=" text-center"> isbn</div></th>
+            <th scope="col"><div class=" text-center"> Idioma</div></th>
+            <th scope="col"><div class=" text-center"> Portada</div></th>
+            <th  scope="col"><div class=" text-center"> Digital</div></th>
+            <th  scope="col"><div class="text-center"> Resumen</div></th>
+            <th  scope="col"><div class=" text-center"> Tipo</div></th>
+            <th  scope="col"><div class=" text-center"> Categoria</div></th>
+            <th  scope="col"><div class= "text-center"> Valoracion</div></th>
+            <th  scope="col"><div class=" text-center"> Año</div></th>
+            <th  scope="col"><div class=" text-center"> Préstamos</div></th>
+            <th  scope="col"><div class=" text-center"> Opciones</div></th>
         </tr>
     </thead>
     <tbody>

@@ -4,11 +4,11 @@
 <table class="table-bordered">
     <thead>
         <tr class="table-active">
-        <th scope="col">ID</th>
-        <th scope="col">Nombre del libro</th>
-        <th scope="col">Resumen</th>
-        <th scope="col">Categoria</th> 
-        <th scope="col">Opciones</th>
+        <th scope="col"><div class="text-center">ID</div></th>
+        <th scope="col"><div class="text-center">Nombre del libro</div></th>
+        <th scope="col"><div class="text-center">Resumen</div></th>
+        <th scope="col"><div class="text-center">Categoria</div></th> 
+        <th scope="col"><div class="text-center">Opciones</div></th>
         </tr>
     </thead>
     <tbody>
