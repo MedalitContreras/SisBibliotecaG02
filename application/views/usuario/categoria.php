@@ -20,8 +20,8 @@
         <th><?php echo $reg->cate_nombre; ?></th>
             <td>               
                 <form method="DELETE" action="<?php echo base_url('usuario/delete/'.$reg->cate_id);?>">
-                 <a class="btn btn-success" href="<?php echo base_url('usuario/edit_cate/'.$reg->cate_id) ?>"> Editar</a>
-                 <button class="btn btn-danger" type="submit"> Eliminar</button>
+                 <a class="btn btn-success btn-xs" href="<?php echo base_url('usuario/edit_cate/'.$reg->cate_id) ?>"><i class="far fa-edit"></i>Editar  </a>
+                 <button class="btn btn-danger btn-xs" type="submit"><i class="fas fa-trash-alt"></i>Eliminar </button>
                 </form>
             </td>    
         </tr>
