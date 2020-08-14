@@ -14,15 +14,16 @@
     <tbody>
         <?php foreach ($registros as $reg): ?>
         <tr>
-        <th><?php echo $reg->ejem_id; ?></th>
-        <th><?php echo $reg->ejem_titulo; ?></th>
-        <th><?php echo $reg->ejem_resumen; ?></th>
-        <th><?php echo $reg->cate_nombre; ?></th>
-            <td>               
+        <th><div class="modal-dialog text-center"><?php echo $reg->ejem_id; ?></div></th>
+        <th><div class="modal-dialog text-center"><?php echo $reg->ejem_titulo; ?></div></th>
+        <th><div class="modal-dialog text-center"><?php echo $reg->ejem_resumen; ?></div></th>
+        <th><div class="modal-dialog text-center"><?php echo $reg->cate_nombre; ?></div></th>
+            <td>  <div class="modal-dialog text-center">             
                 <form method="DELETE" action="<?php echo base_url('usuario/delete/'.$reg->cate_id);?>">
                  <a class="btn btn-success btn-xs" href="<?php echo base_url('usuario/edit_cate/'.$reg->cate_id) ?>"><i class="far fa-edit"></i>Editar  </a>
                  <button class="btn btn-danger btn-xs" type="submit"><i class="fas fa-trash-alt"></i>Eliminar </button>
                 </form>
+                </div>
             </td>    
         </tr>
         <?php endforeach; ?>
