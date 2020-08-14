@@ -4,7 +4,7 @@
 <br>
 
   
-
+<div class="table-responsive">
 <table class="table-bordered">
     <thead>
         <tr class="table-active">
@@ -16,7 +16,6 @@
             <th scope="col"> Idioma</th>
             <th scope="col"> Portada</th>
             <th  scope="col"> Digital</th>
-            <th  scope="col"> Audio</th>
             <th  scope="col"> Resumen</th>
             <th  scope="col"> Tipo</th>
             <th  scope="col"> Categoria</th>
@@ -37,18 +36,18 @@
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_idioma; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_portada; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_digital; ?></div></th>
-            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_audio; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_resumen; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_tipo_id; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_cate_id; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_valoracion; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_anio; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_nprestamos; ?></div></th> 
-            <th><a class="btn btn-success" href="<?php echo base_url('usuario/edit');?>/<?php echo $reg->ejem_id;?>">Editar ... 
-            <a class="btn btn-danger" href="<?php echo base_url('usuario/eliminar');?>/<?php echo $reg->ejem_id;?>">Eliminar</td>
+            <td><div class="modal-dialog text-center">  <a class="btn btn-success btn-xs" href="<?php echo base_url('usuario/edit');?>/<?php echo $reg->ejem_id;?>"><i class="far fa-edit"></i>Editar</a> 
+            <a class="btn btn-danger btn-xs" href="<?php echo base_url('usuario/eliminar');?>/<?php echo $reg->ejem_id;?>"><i class="fas fa-trash-alt"></i>Eliminar</div></td>
                 
         </tr>
         <?php endforeach; ?>
     </tbody>
 </table>
 </div>  
+</div>
