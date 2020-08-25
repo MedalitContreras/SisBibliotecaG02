@@ -40,6 +40,7 @@ class Usuario extends CI_Controller
         $this->load->view('header');
         $this->load->view('usuario/ejemplar',$datos);
         $this->load->view('footer');
+        
 
        // redirect('usuario/perfil');
     }

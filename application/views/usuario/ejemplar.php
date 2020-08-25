@@ -2,11 +2,10 @@
 
 <h2 align="center" class="display-4"><P ><u>EJEMPLARES</u></P></h2>  
 <br>
-
-  
 <div class="table-responsive">
-<table class="table-bordered">
-    <thead>
+
+<table class="table-bordered" id="ejemplar">
+    <thead >
         <tr class="table-active">
         <th scope="col">ID</th>
             <th scope="col"><div class="text-center"> Titulo</div></th>
