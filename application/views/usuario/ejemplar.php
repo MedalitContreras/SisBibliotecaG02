@@ -2,12 +2,13 @@
 
 <h2 align="center" class="display-4"><P ><u>EJEMPLARES</u></P></h2>  
 <br>
-<div class="table-responsive">
+
+<div  class="table-responsive-lg">
 
 <table class="table-bordered" id="ejemplar">
     <thead >
         <tr class="table-active">
-        <th scope="col">ID</th>
+            <th scope="col">ID</th>
             <th scope="col"><div class="text-center"> Titulo</div></th>
             <th scope="col"><div class=" text-center"> Editorial</div></th>
             <th scope="col"><div class=" text-center"> Paginas</div></th>
@@ -49,5 +50,5 @@
         <?php endforeach; ?>
     </tbody>
 </table>
-</div>  
+</div>
 </div>

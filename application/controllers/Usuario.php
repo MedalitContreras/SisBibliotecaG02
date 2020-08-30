@@ -6,11 +6,11 @@ class Usuario extends CI_Controller
     public function __construct() {
         parent:: __construct();
         $this->load->model('model_usuario');
-    }
+        
+        $this->load->library(array('form_validation'));
+}
 	public function index()
 	{
-       
-        
         $this->load->model('model_usuario');
         $result = $this->model_usuario->consultar();
         $datos = array('registros'=>$result);
@@ -20,16 +20,17 @@ class Usuario extends CI_Controller
         $this->load->view('footer');
     }
 
+
     public function formulario()
     {
         $this->load->view('header');
      
-            $this->load->helper('form');
-            $this->load->model('Model_Usuario');
-            $opciones = $this->Model_Usuario->getCategorias();
-            $data['opciones']= $opciones;
-    
-            $this->load->view('usuario/formulario',$data);
+        $this->load->helper('form');
+        $this->load->model('Model_Usuario');
+        $opciones = $this->Model_Usuario->getCategorias();
+        $data['opciones']= $opciones;
+
+        $this->load->view('usuario/formulario',$data);
         $this->load->view('footer');
     }
     public function ejemplar(){
@@ -38,16 +39,16 @@ class Usuario extends CI_Controller
         $result = $this->model_usuario->consultar();
         $datos = array('registros'=>$result);
         $this->load->view('header');
+        $registros = $this->db->query("
+        SELECT * FROM  ejemplar,categoria
+        WHERE ejem_cate_id=cate_id ")->result();
+        $data['registros']= $registros;
         $this->load->view('usuario/ejemplar',$datos);
         $this->load->view('footer');
         
-
-       // redirect('usuario/perfil');
     }
     public function regresar(){
-
         redirect('usuario');
-
     }
 
 
@@ -70,9 +71,29 @@ class Usuario extends CI_Controller
         $ejem_nprestamos= $this->input->post('ejem_nprestamos');
 
        $this->load->model('model_usuario');
-
-        $data = array(
-    
+       $config = array(
+        array(
+                'field' => 'ejem_titulo',
+                'label' => 'Nombre del título',
+                'rules' => 'required|alpha_numeric',
+        ),
+        array(
+                'field' => 'ejem_editorial',
+                'label' => 'Nombre de la editorial',
+                'rules' => 'required',
+                'errors' => array(
+                        'required' => 'La editorial no existe',
+                ),
+            ),
+        );
+        $this->form_validation->set_rules($config);
+        if ($this->form_validation->run() == FALSE)
+        {             
+                $data['opciones']= $opciones;
+                $this->load->view('usuario/formulario',$data);
+        }
+        else
+        { $data = array(
            'ejem_id'=>$ejem_id,
             'ejem_titulo'=>$ejem_titulo,
             'ejem_editorial'=>$ejem_editorial,
@@ -93,6 +114,8 @@ class Usuario extends CI_Controller
         
         redirect('usuario/ejemplar');
     }
+        }
+     
 
     public function eliminar($ejem_id){
         $this->load->model('model_usuario');
@@ -130,17 +153,6 @@ class Usuario extends CI_Controller
         );
         redirect('usuario/ejemplar');
     }
-  /*  public function categoria(){
-
-        $this->load->model('model_usuario');
-        $result = $this->model_usuario->ver();
-        $datos = array('registros'=>$result);
-        $this->load->view('header');
-        $this->load->view('usuario/categoria',$datos);
-        $this->load->view('footer');
-
-       // redirect('usuario/perfil');
-    }*/
     public function guardar_cate()
     {
         $ejem_id = $this->input->post('cate_id');

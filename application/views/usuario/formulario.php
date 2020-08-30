@@ -1,7 +1,7 @@
 <h2 align="center" class="display-4"><P><u><strong>INGRESAR UN NUEVO LIBRO</strong></u></P></h2>  
 <div class=container>
 
-
+<?php echo validation_errors(); ?>
 <?php
  echo form_open('Usuario/guardar');
  $data_n = array(
