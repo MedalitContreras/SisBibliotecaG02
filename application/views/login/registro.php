@@ -5,7 +5,7 @@
 <form action="<?php echo base_url('Login/guardar'); ?>" method="post" class="needs-validation" novalidate>
 <div class="form-group " > 
             <div class="form-group">
-                <label for="usua_login"><h4><i class="fas fa-user-edit"></i> Nombre de Usuario: </h4></label>
+                <label ><h4><i class="fas fa-user-edit"></i> Nombre de Usuario: </h4></label>
                 <input type="text" class="form-control" name="usua_login" required>
                 <div class="valid-feedback"> campo completado :) </div>
                 <div class="invalid-feedback"> campo no completado :( </div>
