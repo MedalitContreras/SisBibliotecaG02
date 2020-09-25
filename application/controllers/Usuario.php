@@ -74,7 +74,7 @@ class Usuario extends CI_Controller
        $config = array(
         array(
                 'field' => 'ejem_titulo',
-                'label' => 'Nombre del título',
+                'label' => 'Nomb+re del título',
                 'rules' => 'required|alpha_numeric',
         ),
         array(

@@ -10,9 +10,9 @@
     <script src="https://kit.fontawesome.com/09c1c30a14.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/bootstrap4/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/Datatables/DataTables-1.10.21/css/dataTables.bootstrap4.min.css">
-    <script type="text/javascript" src="<?php echo base_url(); ?>assets/Datatables/datatables.min.js"></script>
-    <script type="text/javascript" src="<?php echo base_url(); ?>main.js"></script>
+    <link rel="stylesheet" type="text/css" href="<?php echo base_url(); ?>assets/Datatables/DataTables-1.10.21/css/dataTables.bootstrap4.min.css">
+    <script src="<?php echo base_url(); ?>assets/Datatables/jquery.dataTables.min.js"></script>
+    <script type="text/javascript" charset="utf8" src="<?php echo base_url(); ?>main.js"></script>
     
 <div class="container">
 </head>
