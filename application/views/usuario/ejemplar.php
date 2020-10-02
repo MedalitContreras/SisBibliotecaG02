@@ -7,13 +7,11 @@
 <body >
 
 
-<h2 align="center" class="display-4"><P ><u>EJEMPLARES</u></P></h2>  
+<h2 align="center" class="display-6"><P class="list-group-item list-group-item-warning">EJEMPLARES</P></h2>  
 <br>
-<div class="container">
-<div  class="table-responsive-lg">
-
-<table id="ejemp" class="table-bordered">
-    <thead >
+<div  class="table-responsive">
+<table id="ejemp" class="table table-striped" >
+    <thead class="thead-dark">
         <tr class="table-active">
             <th scope="col">ID</th>
             <th scope="col"><div class="text-center"> Titulo</div></th>
@@ -58,7 +56,7 @@
     </tbody>
 </table>
 </div>
-</div>
+
 
 
 

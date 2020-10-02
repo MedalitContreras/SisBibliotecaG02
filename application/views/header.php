@@ -10,11 +10,14 @@
     <script src="https://kit.fontawesome.com/09c1c30a14.js" crossorigin="anonymous"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/jquery-3.5.1.min.js"></script>
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/bootstrap4/js/bootstrap.min.js"></script>
+    <style type="text/css">
+    body {background-color: #ECECEC}
+    </style>
     
 <div class="container">
 </head>
 <body>
-<nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+<nav class="navbar navbar-light" style="background-color: #F3964F;">
   <a  href="<?php echo base_url('usuario/regresar') ?>" class="navbar-brand" href="#"><i class="fas fa-home"></i> INICIO</a> 
 
   <a  href="<?php echo base_url('usuario/formulario') ?>" class="navbar-brand" href="#"><i class="fas fa-book"></i> INGRESAR NUEVO LIBRO</a> 

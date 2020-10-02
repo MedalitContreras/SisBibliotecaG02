@@ -1,8 +1,8 @@
 <div class=container>
-<h2 align="center" class="display-4" class="text-info"><p><u>CATEGORÍA</u></p></h2>     
+<h2 align="center" class="display-6" class="text-info"><p class="list-group-item list-group-item-warning">CATEGORÍA</p></h2>     
        
-<table class="table-bordered">
-    <thead>
+<table  class="table table-striped">
+    <thead class="thead-dark">
         <tr class="table-active">
         <th scope="col"><div class="text-center">ID</div></th>
         <th scope="col"><div class="text-center">Nombre del libro</div></th>
