@@ -3,12 +3,13 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.css"/>
 
 </head>
-<body>
-<div class="container">
+
+<body >
+
 
 <h2 align="center" class="display-4"><P ><u>EJEMPLARES</u></P></h2>  
 <br>
-
+<div class="container">
 <div  class="table-responsive-lg">
 
 <table id="ejemp" class="table-bordered">
@@ -71,4 +72,5 @@
 } );
 </script>
 </body>
+
 </html>
