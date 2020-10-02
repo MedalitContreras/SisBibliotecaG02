@@ -1,3 +1,9 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.css"/>
+
+</head>
+<body>
 <div class="container">
 
 <h2 align="center" class="display-4"><P ><u>EJEMPLARES</u></P></h2>  
@@ -56,11 +62,13 @@
 
 
 
-<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
-<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.js"></script>
 
 <script>
     $(document).ready( function () {
-    $('ejem').DataTable();
+    $('#ejemp').DataTable();
 } );
 </script>
+</body>
+</html>
