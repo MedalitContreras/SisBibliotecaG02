@@ -48,20 +48,17 @@
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_anio; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_nprestamos; ?></div></th> 
 
-            <td class=" text-center">  <a class="btn btn-success btn-xs" href="<?php echo base_url('usuario/edit');?>/<?php echo $reg->ejem_id;?>"><i class="far fa-edit"></i>Editar</a> 
+            <td class=" text-center"><a class="btn btn-success btn-xs" href="<?php echo base_url('usuario/edit');?>/<?php echo $reg->ejem_id;?>"><i class="far fa-edit"></i>Editar</a> 
             <a class="btn btn-danger btn-xs" href="<?php echo base_url('usuario/eliminar');?>/<?php echo $reg->ejem_id;?>"><i class="fas fa-trash-alt"></i>Eliminar</td>
                 
         </tr>
         <?php endforeach; ?>
     </tbody>
 </table>
+
 </div>
-
-
-
-
-
-
+<br>
+<a class="btn btn-primary" href="<?php echo base_url('reportes') ?>"><i class="far fa-edit"></i>Imprimir</a>
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.js"></script>
 
 <script>
