@@ -7,16 +7,22 @@ class PDF extends FPDF
     function Header()
     {
         // Logo
-        $this->Image(FCPATH.'assets/logo.jpg',10,8,18);
+        $this->Image(FCPATH.'assets/logo.jpg',10,05,180,30);
         // Arial bold 15
         $this->SetFont('Arial','B',15);
         // Movernos a la derecha
-        $this->Cell(80);
+        $this->Cell(75);
         // Título
-        $this->Cell(30,10,'REPORTE',0,0,'C');
+        $this->Cell(30,20,'REPORTE DE EJEMPLARES',0,0,'C');
         // Salto de línea
-        $this->Ln(20);
+        $this->Ln(35);
+
+        $this->Cell(90,10,utf8_decode('TÍTULO') ,1,0,'C',0);
+        $this->Cell(45,10, 'EDITORIAL',1,0,'C',0);
+        $this->Cell(45,10, 'PORTADA',1,1,'C',0);
     }
+    
+
     
     // Pie de página
     function Footer()
