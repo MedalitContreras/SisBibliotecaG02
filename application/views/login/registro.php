@@ -1,6 +1,6 @@
-<div class="container">
+
 <title>REGISTRARSE</title>
-<div  class="container">
+<div></div>
 <h2 align="center" class="display-6"><p class="list-group-item list-group-item-warning">INGRESE SUS DATOS</p></h2>
 <form action="<?php echo base_url('Login/guardar'); ?>" method="post" class="needs-validation" novalidate>
 <div class="form-group " > 
@@ -58,7 +58,7 @@
                 <a  href="<?php echo base_url('usuario/regresar') ?>" type="submit" class="btn btn-danger" ><i class="fas fa-user-times"></i> Cancelar</a> 
             </div>
 
-</div>
+
 </div>
 </form>
 
