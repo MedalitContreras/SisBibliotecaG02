@@ -11,7 +11,7 @@
                 <br><br>
             <div class="container">
         <button type="submit" class="btn btn-primary">Guardar</button>  
-        <a  href="<?php echo base_url('usuario/ejemplar') ?>" type="submit" class="btn btn-danger" >Cancelar</a> 
+        <a  href="<?php echo base_url('usuario/categoria') ?>" type="submit" class="btn btn-danger" >Cancelar</a> 
        
  </div>
  </form>
