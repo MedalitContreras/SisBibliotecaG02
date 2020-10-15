@@ -5,8 +5,6 @@
 <body >
 <h2 class="text-center" class="display-6"><P class="list-group-item list-group-item-warning">EJEMPLARES</P></h2>  
 <br>
-
- <div class="container">
 <div  class="table-responsive">
 <table id="ejemp" class="table">
     <thead>
@@ -15,14 +13,10 @@
             <th scope="col"><div class="text-center"> Titulo</div></th>
             <th scope="col"><div class=" text-center"> Editorial</div></th>
             <th scope="col"><div class=" text-center"> Paginas</div></th>
-            <th scope="col"><div class=" text-center"> isbn</div></th>
             <th scope="col"><div class=" text-center"> Idioma</div></th>
-            <th scope="col"><div class=" text-center"> Portada</div></th>
             <th  scope="col"><div class=" text-center"> Digital</div></th>
-            <th  scope="col"><div class="text-center"> Resumen</div></th>
-            <th  scope="col"><div class=" text-center"> Tipo</div></th>
-            <th  scope="col"><div class=" text-center"> Categoria</div></th>
-            <th  scope="col"><div class= "text-center"> Valoracion</div></th>
+            <th  scope="col"><div class=" text-center"> Cate</div></th>
+            <th  scope="col"><div class= "text-center"> Val</div></th>
             <th  scope="col"><div class=" text-center"> Año</div></th>
             <th  scope="col"><div class=" text-center"> Préstamos</div></th>
             <th  scope="col"><div class=" text-center"> Opciones</div></th>
@@ -35,12 +29,8 @@
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_titulo; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_editorial; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_paginas; ?></div></th>
-            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_isbn; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_idioma; ?></div></th>
-            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_portada; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_digital; ?></div></th>
-            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_resumen; ?></div></th>
-            <th><div class="modal-dialog text-center"><?php echo $reg->ejem_tipo_id; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_cate_id; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_valoracion; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_anio; ?></div></th>
@@ -54,7 +44,6 @@
     </tbody>
 </table>
 </div>
- </div> 
 
 <br>
 <a class="btn btn-primary" href="<?php echo base_url('reportes') ?>"><i class="far fa-edit"></i>Imprimir</a>
