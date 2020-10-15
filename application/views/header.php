@@ -36,14 +36,8 @@
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url('usuario/categoria') ?>" href="#">Categoria</a>
       </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="<?php echo base_url('Login'); ?>" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Ingresar
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="<?php echo base_url('Login'); ?>" href="#">Ingresar</a>
-          <a class="dropdown-item" href="<?php echo base_url('Login/registro'); ?>" href="#">Registrarse</a>
-        </div>
+      <li class="nav-item ">
+        <a class="nav-link " href="<?php echo base_url('Login'); ?>" href="#" >Ingresar</a>
       </li>
       <li class="nav-item">
         <a class="nav-link disabled" href="<?php echo base_url('Login/salir'); ?>" href="#">Salir</a>
