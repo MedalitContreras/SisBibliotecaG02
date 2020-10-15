@@ -3,7 +3,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.css"/>
 </head>
 <body >
-<h2 class="text-center" class="display-6"><P class="list-group-item list-group-item-warning">EJEMPLARES</P></h2>  
+<h2 class="text-center" class="display-6"><P class="list-group-item list-group-item-warning">Ejemplares</P></h2>  
 <br>
 <div  class="table-responsive">
 <table id="ejemp" class="table">
