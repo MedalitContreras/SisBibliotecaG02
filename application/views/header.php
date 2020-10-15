@@ -41,6 +41,7 @@
           Ingresar
         </a>
         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="<?php echo base_url('Login'); ?>" href="#">Ingresar</a>
           <a class="dropdown-item" href="<?php echo base_url('Login/registro'); ?>" href="#">Registrarse</a>
         </div>
       </li>

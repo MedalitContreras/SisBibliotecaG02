@@ -7,51 +7,51 @@
             <div class="form-group">
                 <label ><h4><i class="fas fa-user-edit"></i> Nombre de Usuario: </h4></label>
                 <input type="text" class="form-control" name="usua_login" required>
-                <div class="valid-feedback"> campo completado :) </div>
-                <div class="invalid-feedback"> campo no completado :( </div>
+                <div class="valid-feedback"> Campo completado</div>
+                <div class="invalid-feedback"> Campo no completado</div>
             </div>
 
             <div class="form-group">
                 <label><h4><i class="fas fa-user-edit"></i> Contraseña: </h4></label>
                 <input type="password" class="form-control" name="usua_password" required>
-                <div class="valid-feedback"> campo completado :) </div>
-                <div class="invalid-feedback"> campo no completado :( </div>
+                <div class="valid-feedback"> Campo completado</div>
+                <div class="invalid-feedback"> Campo no completado</div>
             </div>
             <div class="form-group">
                 <label><h4><i class="fas fa-user-edit"></i> Codigo: </h4></label>
                 <input type="number" class="form-control" name="usua_codigo" required>
-                <div class="valid-feedback"> campo completado :) </div>
-                <div class="invalid-feedback"> campo no completado :( </div>
+                <div class="valid-feedback"> Campo completado</div>
+                <div class="invalid-feedback"> Campo no completado</div>
             </div>
             <div class="form-group">
                 <label><h4><i class="fas fa-user-edit"></i> Nombres: </h4></label>
                 <input type="text" class="form-control" name="usua_nombres" required>
-                <div class="valid-feedback"> campo completado :) </div>
-                <div class="invalid-feedback"> campo no completado :( </div>
+                <div class="valid-feedback"> Campo completado</div>
+                <div class="invalid-feedback"> Campo no completado</div>
             </div>
             <div class="form-group">
                 <label><h4><i class="fas fa-user-edit"></i> Apellidos:</h4></label>
                 <input type="text" class="form-control" name="usua_apellidos" required>
-                <div class="valid-feedback"> campo completado :) </div>
-                <div class="invalid-feedback"> campo no completado :( </div>
+                <div class="valid-feedback"> Campo completado</div>
+                <div class="invalid-feedback"> Campo no completado</div>
             </div>
             <div class="form-group">
                 <label><h4><i class="fas fa-user-edit"></i> Direccion: </h4></label>
                 <input type="text" class="form-control" name="usua_direccion" required>
-                <div class="valid-feedback"> campo completado :) </div>
-                <div class="invalid-feedback"> campo no completado :( </div>
+                <div class="valid-feedback"> Campo completado</div>
+                <div class="invalid-feedback"> Campo no completado</div>
             </div>
             <div class="form-group">
                 <label><h4><i class="fas fa-user-edit"></i> E-mail: </h4></label>
                 <input type="email" class="form-control" name="usua_email" required>
-                <div class="valid-feedback"> campo completado :) </div>
-                <div class="invalid-feedback"> campo no completado :( </div>
+                <div class="valid-feedback"> Campo completado</div>
+                <div class="invalid-feedback"> Campo no completado</div>
             </div>
             <div class="form-group">
                 <label><h4><i class="fas fa-user-edit"></i> Telefono: </h4></label>
                 <input type="number" class="form-control" name="usua_telefono" required>
-                <div class="valid-feedback"> campo completado :) </div>
-                <div class="invalid-feedback"> campo no completado :( </div>
+                <div class="valid-feedback"> Campo completado</div>
+                <div class="invalid-feedback"> Campo no completado</div>
             </div>
             <div class="form-group">
                 <td colspan="2"><input type="submit"  class="btn btn-primary" value="Ingresar"></td>
