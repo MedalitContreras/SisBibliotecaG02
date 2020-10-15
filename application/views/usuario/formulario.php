@@ -1,4 +1,4 @@
-<h2 align="center" class="display-6"><P class="list-group-item list-group-item-warning">Ingresar Libro</P></h2>  
+<h2 align="center" class="display-6"><P class="alert alert-secondary">Ingresar Libro</P></h2>  
 <div class=container>
 
 <?php echo validation_errors(); ?>

@@ -1,7 +1,7 @@
 
 <title>Registrarse</title>
 <div></div>
-<h2 align="center" class="display-6"><p class="list-group-item list-group-item-warning">INGRESE SUS DATOS</p></h2>
+<h2 align="center" class="display-6"><p class="alert alert-secondary">Ingrese datos</p></h2>
 <form action="<?php echo base_url('Login/guardar'); ?>" method="post" class="needs-validation" novalidate>
 <div class="form-group " > 
             <div class="form-group">

@@ -1,5 +1,5 @@
 <div class=container>
-<h2 align="center" class="display-6" class="text-info"><p class="list-group-item list-group-item-warning">Categoría</p></h2>     
+<h2 align="center" class="display-6" class="text-info"><p class="alert alert-secondary">Categoría</p></h2>     
        
 <table  class="table table-striped">
     <thead class="thead-dark">
