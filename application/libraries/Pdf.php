@@ -19,10 +19,10 @@ class PDF extends FPDF
       
         // Salto de línea
         $this->Ln(40);
-
-        $this->Cell(90,10,utf8_decode('TÍTULO') ,1,0,'C',0);
-        $this->Cell(45,10, 'EDITORIAL',1,0,'C',0);
-        $this->Cell(45,10, 'PORTADA',1,1,'C',0);
+        $this->SetFillColor(250,152,76); 
+        $this->Cell(90,10,utf8_decode('TÍTULO') ,1,0,'C',1);
+        $this->Cell(45,10, 'EDITORIAL',1,0,'C',1);
+        $this->Cell(45,10, 'PORTADA',1,1,'C',1);
     }
     
 
