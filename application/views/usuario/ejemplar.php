@@ -35,9 +35,8 @@
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_valoracion; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_anio; ?></div></th>
             <th><div class="modal-dialog text-center"><?php echo $reg->ejem_nprestamos; ?></div></th> 
-            
-            <td class=" text-center"><a class="btn btn-success btn-xs" href="<?php echo base_url('usuario/edit');?>/<?php echo $reg->ejem_id;?>"><i class="far fa-edit"></i>Editar</a> 
-            <a class="btn btn-danger btn-xs" href="<?php echo base_url('usuario/eliminar');?>/<?php echo $reg->ejem_id;?>"><i class="fas fa-trash-alt"></i>Eliminar</td>
+            <td class=" text-center"><a class="btn btn-outline-dark" href="<?php echo base_url('usuario/edit');?><?php echo $reg->ejem_id;?>"><i class="far fa-edit"></i></a> 
+            <a class="btn btn-outline-danger" href="<?php echo base_url('usuario/eliminar');?>/<?php echo $reg->ejem_id;?>"><i class="fas fa-trash-alt"></i></td>
                 
         </tr>
         <?php endforeach; ?>
