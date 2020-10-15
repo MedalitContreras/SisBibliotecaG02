@@ -12,8 +12,7 @@
     <script type="text/javascript" src="<?php echo base_url(); ?>assets/bootstrap4/js/bootstrap.min.js"></script>
     <style type="text/css">
     body {background-color: #ECECEC}
-    </style>
-    
+    </style>  
 <div class="container">
 </head>
 <body>

@@ -2,13 +2,13 @@
 <head>
     <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.css"/>
 </head>
-
 <body >
 <h2 class="text-center" class="display-6"><P class="list-group-item list-group-item-warning">EJEMPLARES</P></h2>  
 <br>
-<div class="container">  
-<div  class="table-responsive-lg">
-<table id="ejemp" class="table-bordered">
+
+ <div class="container">
+<div  class="table-responsive">
+<table id="ejemp" class="table">
     <thead>
         <tr class="table-active">
             <th scope="col">ID</th>
@@ -54,8 +54,8 @@
     </tbody>
 </table>
 </div>
+ </div> 
 
-</div>
 <br>
 <a class="btn btn-primary" href="<?php echo base_url('reportes') ?>"><i class="far fa-edit"></i>Imprimir</a>
 
