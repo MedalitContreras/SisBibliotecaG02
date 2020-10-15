@@ -17,19 +17,41 @@
 <div class="container">
 </head>
 <body>
-<nav class="navbar navbar-light" style="background-color: #F3964F;">
-  <a  href="<?php echo base_url('usuario/regresar') ?>" class="navbar-brand" href="#"><i class="fas fa-home"></i> INICIO</a> 
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">B-G2</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
 
-  <a  href="<?php echo base_url('usuario/formulario') ?>" class="navbar-brand" href="#"><i class="fas fa-book"></i> INGRESAR NUEVO LIBRO</a> 
-
-  <a  href="<?php echo base_url('usuario/ejemplar') ?>"  class="navbar-brand" href="#"><i class="fas fa-book-open"></i> EJEMPLARES </a>
-
-  <a  href="<?php echo base_url('usuario/categoria') ?>"  class="navbar-brand" href="#"><i class="fas fa-book-open"></i> CATEGORIA </a> 
-
-  <a href="<?php echo base_url('Login'); ?>" class="navbar-brand" href="#"><i class="fas fa-user-check"></i> INGRESAR</a>
-
-  <a href="<?php echo base_url('Login/registro'); ?>" class="navbar-brand" href="#"><i class="fas fa-user-plus"></i> REGISTRARSE</a>
-
-  <a href="<?php echo base_url('Login/salir'); ?>" class="navbar-brand" href="#"><i class="fas fa-sign-out-alt"></i> SALIR</a>
-
-</nav> 
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="<?php echo base_url('usuario/regresar') ?>" href="#">Inicio <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo base_url('usuario/formulario') ?>" href="#">Ingresar Libro</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo base_url('usuario/ejemplar') ?>" href="#">Ejemplar</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="<?php echo base_url('usuario/categoria') ?>" href="#">Categoria</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="<?php echo base_url('Login'); ?>" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Ingresar
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="<?php echo base_url('Login/registro'); ?>" href="#">Registrarse</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="<?php echo base_url('Login/salir'); ?>" href="#">Salir</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Buscar Libro" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+    </form>
+  </div>
+</nav>
