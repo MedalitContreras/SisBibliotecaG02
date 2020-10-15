@@ -26,7 +26,7 @@ class Reportes extends CI_Controller
    }
 
 
-        $pdf->Output();
+        $pdf->Output('');
 
      }
 }

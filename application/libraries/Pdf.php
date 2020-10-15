@@ -12,14 +12,18 @@ class PDF extends FPDF
         $this->Image(FCPATH.'assets/logo2.jpg',10,25,180,25);
         // Arial bold 15
         $this->SetFont('Arial','B',15);
+        $this->Cell(180,55,'REPORTE DE EJEMPLARES',0,0,'C');
         // Movernos a la derecha
         $this->Cell(75);
         // Título
-        $this->Cell(35,55,'REPORTE DE EJEMPLARES',0,0,'C');
+        $this->SetFont('Arial','I',11);
+        $this->Cell(-320,15,utf8_decode('"Año de la universalización de la salud"'),0,0,'C');
+        
       
         // Salto de línea
         $this->Ln(40);
-        $this->SetFillColor(250,152,76); 
+        $this->SetFont('Arial','B',15);
+        $this->SetFillColor(223,223,223); 
         $this->Cell(90,10,utf8_decode('TÍTULO') ,1,0,'C',1);
         $this->Cell(45,10, 'EDITORIAL',1,0,'C',1);
         $this->Cell(45,10, 'PORTADA',1,1,'C',1);
