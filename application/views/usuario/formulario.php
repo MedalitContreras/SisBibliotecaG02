@@ -3,6 +3,7 @@
 
   <?php echo validation_errors(); ?>
   <?php
+  
   echo form_open('Usuario/guardar');
   $data_n = array(
     'name'=>'ejem_titulo',
