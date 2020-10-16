@@ -1,5 +1,5 @@
 <div class="container">
-<h2 align="center" class="display-4"><p><u>EDITAR</u></p></h2>
+<h2 align="center" class="display-4"><p><u>Editar</u></p></h2>
 
 <form method="post"  action="<?php echo base_url('usuario/update') ?>" class="needs-validation" novalidate>
 
