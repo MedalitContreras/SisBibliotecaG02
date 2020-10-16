@@ -5,7 +5,7 @@ class Login extends CI_Controller {
 
 	public function index()
 	{
-        $this->load->view('header');
+        
         $this->load->view('login/login');
         $this->load->view('footer');
     }
@@ -33,7 +33,7 @@ class Login extends CI_Controller {
     public function salir()
 	{
         $this->session->sess_destroy();
-        redirect();
+        redirect(Login);
     }
 
     public function registro()
