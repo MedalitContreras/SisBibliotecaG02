@@ -10,7 +10,7 @@
                 <div id="login-column" class="col-md-6">
                     <div id="login-box" class="col-md-12">
                         <form id="login-form" class="form" action="" method="post">
-                            <h3 class="text-center text-info">Ingresar</h3>
+                            <h3 class="text-center text-info">Ingrese</h3>
                             <div class="form-group">
                                 <label for="username" class="text-black"><i class="fas fa-user"></i> Usuario:</label><br>
                                 <input type="text" name="username" id="username" class="form-control">
@@ -21,7 +21,9 @@
                             </div>
                             <div class="form-group">
                                 <label for="remember-me" class="text-black"><span>Recordar</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
-                                <input type="submit" name="submit" class="btn btn-outline-dark" value="Ingresar">
+                                <input type="submit" name="submit" class="btn btn-outline-dark" value="Ingresar" required>
+                                <div class="valid-feedback"> Campo completado</div>
+                                <div class="invalid-feedback"> Campo no completado</div>
                             </div>
                             <div id="register-link" class="text-right">
                                 <a href="<?php echo base_url('Login/registro'); ?>" class="text-info"><i class="fas fa-user-plus"></i> Registrese aqui </a>

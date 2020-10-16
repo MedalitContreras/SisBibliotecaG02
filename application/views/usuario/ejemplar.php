@@ -45,7 +45,7 @@
 </div>
 
 <br>
-<a class="btn btn-primary" href="<?php echo base_url('reportes') ?>"><i class="far fa-edit"></i>Imprimir</a>
+<a class="btn btn-outline-primary" href="<?php echo base_url('reportes') ?>"><i class="far fa-edit"></i>Imprimir</a>
 
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/v/bs4/dt-1.10.20/datatables.min.js"></script>
 
