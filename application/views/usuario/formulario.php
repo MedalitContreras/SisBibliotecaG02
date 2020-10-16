@@ -13,6 +13,7 @@
   );   
     echo form_label('Titulo:','titulo');
     echo form_input($data_n,"");
+    
 
   
     $data_e = array(
