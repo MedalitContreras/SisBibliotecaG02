@@ -1,7 +1,7 @@
 <table border=1>
 <thead>
 <tr>
-<th>Título</th><th>Archivo</th>
+<th>Título</th><th>Portada</th>
 </tr>
 </tr>
 </thead>

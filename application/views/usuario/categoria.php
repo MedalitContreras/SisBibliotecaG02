@@ -1,5 +1,5 @@
-<div class=container>
-<h2 align="center" class="display-6" class="text-info"><p class="alert alert-secondary">Categoría</p></h2>     
+
+<h2 class="text-center" class="display-6" class="text-info"><p class="alert alert-secondary">Categoría</p></h2>     
        
 <table  class="table table-striped">
     <thead class="thead-dark">
@@ -20,8 +20,9 @@
         <th><div class="modal-dialog text-center"><?php echo $reg->cate_nombre; ?></div></th>
             <td class=" text-center">             
                 <form method="DELETE" action="<?php echo base_url('usuario/delete/'.$reg->cate_id);?>">
+                <div class="btn-group-vertical">
                  <a class="btn btn-outline-success btn-xs" href="<?php echo base_url('usuario/edit_cate/'.$reg->cate_id) ?>"><i class="far fa-edit"></i>Editar  </a>
-                 <button class="btn btn-outline-danger btn-xs" type="submit"><i class="fas fa-trash-alt"></i>Eliminar </button>
+                 <button class="btn btn-outline-danger btn-xs" type="submit"><i class="fas fa-trash-alt"></i>Eliminar </button></div>
                 </form>
                 
             </td>    
