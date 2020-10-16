@@ -25,22 +25,22 @@
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="<?php echo base_url('usuario/regresar') ?>" href="#">Inicio <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="<?php echo base_url('usuario/regresar') ?>" href="#"><i class="fas fa-home"></i> Inicio <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('usuario/formulario') ?>" href="#">Ingresar Libro</a>
+        <a class="nav-link" href="<?php echo base_url('usuario/formulario') ?>" href="#"><i class="fas fa-bookmark"></i> Ingresar Libro</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('usuario/ejemplar') ?>" href="#">Ejemplar</a>
+        <a class="nav-link" href="<?php echo base_url('usuario/ejemplar') ?>" href="#"><i class="fas fa-book"></i> Ejemplar</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="<?php echo base_url('usuario/categoria') ?>" href="#">Categoria</a>
+        <a class="nav-link" href="<?php echo base_url('usuario/categoria') ?>" href="#"><i class="fas fa-swatchbook"></i> Categoria</a>
       </li>
       <li class="nav-item ">
-        <a class="nav-link " href="<?php echo base_url('Login'); ?>" href="#" >Ingresar</a>
+        <a class="nav-link " href="<?php echo base_url('Login'); ?>" href="#" ><i class="fas fa-door-open"></i> Ingresar</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link disabled" href="<?php echo base_url('Login/salir'); ?>" href="#">Salir</a>
+        <a class="nav-link " href="<?php echo base_url('Login/salir'); ?>" href="#"><i class="fas fa-door-closed"></i> Salir</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
