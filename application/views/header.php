@@ -36,9 +36,6 @@
       <li class="nav-item">
         <a class="nav-link" href="<?php echo base_url('usuario/categoria') ?>" href="#"><i class="fas fa-swatchbook"></i> Categoria</a>
       </li>
-      <li class="nav-item ">
-        <a class="nav-link " href="<?php echo base_url('Login'); ?>" href="#" ><i class="fas fa-door-open"></i> Ingresar</a>
-      </li>
       <li class="nav-item">
         <a class="nav-link " href="<?php echo base_url('Login/salir'); ?>" href="#"><i class="fas fa-door-closed"></i> Salir</a>
       </li>
